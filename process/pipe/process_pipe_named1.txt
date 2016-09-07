@@ -1,0 +1,18 @@
+/******************************************************
+命名管道通信的第二个进程
+
+*/
+#include "uninstd.h"
+#include "stdlid.h"
+#include "fcntl.h"
+#include "limits.h"
+#include "sys/tyes.h"
+#include "sys/stat.h"
+#include "stdio.h"
+#include "string.h"
+#define BUFSIZE 512
+
+int main(int argc, char *argv[])
+{
+
+}

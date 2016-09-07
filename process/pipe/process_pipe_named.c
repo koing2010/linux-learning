@@ -33,5 +33,21 @@ int main(argc, char *argv[])
 	}
 	pipefd = open(fifoname, O_WRONLY);
 	datafd = open(argv[1],O_RDONLY );
+	if((pipefd > 0) && (datafd > 0))
+	{
+		bytes = read(datafd, buffer, BUFSIZE);
+		while(bytes > 0) /*文件读取成功 */
+		{
+			ret = write(pipefd,buffer,BUFSIZE);
+			if( ret < 0)
+			{
+				perror("write error");
+				exit(EXIT_FAILURE);
+			}
+			bytes = read(datafd, buffer, BUFSIZE);
+		}
+		close(pipefd);
+		close(datafd);
+	}
 	return 0;
 }

@@ -1,0 +1,21 @@
+
+**** Build of configuration Debug for project usart ****
+
+make all 
+Building file: ../usart_test.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart_test.d" -MT"usart_test.d" -o "usart_test.o" "../usart_test.c"
+../usart_test.c: In function 'seriral_test':
+../usart_test.c:21: warning: implicit declaration of function 'open'
+../usart_test.c:21: error: 'O_RDWR' undeclared (first use in this function)
+../usart_test.c:21: error: (Each undeclared identifier is reported only once
+../usart_test.c:21: error: for each function it appears in.)
+../usart_test.c:21: error: 'O_NOCTTY' undeclared (first use in this function)
+../usart_test.c:21: error: 'O_NDELAY' undeclared (first use in this function)
+../usart_test.c: At top level:
+../usart_test.c:40: warning: 'main' takes only zero or two arguments
+../usart_test.c: In function 'main':
+../usart_test.c:40: error: parameter name omitted
+make: *** [usart_test.o] Error 1
+
+**** Build Finished ****

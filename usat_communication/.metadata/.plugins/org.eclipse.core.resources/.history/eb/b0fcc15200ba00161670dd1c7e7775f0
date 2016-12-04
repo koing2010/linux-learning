@@ -1,0 +1,75 @@
+/*****************************************************************************
+creat by Mr.kon @2016-11-13
+*
+****************************************************************************/
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <termios.h>
+#include <errno.h>
+#include <limits.h>
+#include <asm/ioctls.h>
+#include <time.h>
+#include <pthread.h>
+
+int file_t;//serial port file
+/*****************************************************************************
+seriral_test
+description:
+open or close a usart port as a file.
+edited by Mr.kon  @2016-11-14`
+*****************************************************************************/
+static int seriral_test(void)
+{
+	int op_status = 0;
+	file_t = open("/dev/ttySP0",O_RDWR | O_NOCTTY | O_NDELAY );
+	if( file_t < 0)
+	{
+		printf("open SPI device error\n");
+		return 0;
+	}
+	op_status = write(file_t, "usat test project!\n", 18);
+	if(op_status < 0)
+	{
+		printf("write file error\n");
+	}
+	else
+	{
+		printf("write file success\n");
+	}
+	close(file_t);
+	return 0;
+}
+
+
+/*****************************************************************************
+
+******************************************************************************/
+int main(void)
+{
+	pid_t uart_tx_pid;
+	uart_tx_pid = fork();
+
+	/* child process */
+	if(usart_tx_pid == 0)
+	{
+		printf("here is chld prcess, child_pid = %d  , paaent_pid = %d \n",getpid(),getppid());
+
+	}
+	/* parent process */
+	else if(usart_tx_pid > 0)
+	{
+		printf("parent process, parent_pid = %d \n",getpid());
+	}
+	else
+	{
+		printf("fok erro,creat process erro! \n");
+	}
+
+ seriral_test();
+
+return 0;
+}

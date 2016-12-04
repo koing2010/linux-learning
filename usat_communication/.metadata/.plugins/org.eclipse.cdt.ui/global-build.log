@@ -1,0 +1,926 @@
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function ‘seriral_test’:
+../usart.c:21:2: warning: implicit declaration of function ‘open’ [-Wimplicit-function-declaration]
+../usart.c:21:30: error: ‘O_RDWR’ undeclared (first use in this function)
+../usart.c:21:30: note: each undeclared identifier is reported only once for each function it appears in
+../usart.c:21:39: error: ‘O_NOCTTY’ undeclared (first use in this function)
+../usart.c:21:50: error: ‘O_NDELAY’ undeclared (first use in this function)
+../usart.c: At top level:
+../usart.c:40:5: warning: ‘main’ takes only zero or two arguments [-Wmain]
+../usart.c: In function ‘main’:
+../usart.c:40:1: error: parameter name omitted
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+/bin/sh: 1: arm-none-linux-gnueabi-gcc: not found
+make: *** [usart.o] Error 127
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../self_test.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"self_test.d" -MT"self_test.d" -o "self_test.o" "../self_test.c"
+/bin/sh: 1: arm-none-linux-gnueabi-gcc: not found
+make: *** [self_test.o] Error 127
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'seriral_test':
+../usart.c:21: warning: implicit declaration of function 'open'
+../usart.c:21: error: 'O_RDWR' undeclared (first use in this function)
+../usart.c:21: error: (Each undeclared identifier is reported only once
+../usart.c:21: error: for each function it appears in.)
+../usart.c:21: error: 'O_NOCTTY' undeclared (first use in this function)
+../usart.c:21: error: 'O_NDELAY' undeclared (first use in this function)
+../usart.c: At top level:
+../usart.c:40: warning: 'main' takes only zero or two arguments
+../usart.c: In function 'main':
+../usart.c:40: error: parameter name omitted
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'seriral_test':
+../usart.c:21: warning: implicit declaration of function 'open'
+../usart.c:21: error: 'O_RDWR' undeclared (first use in this function)
+../usart.c:21: error: (Each undeclared identifier is reported only once
+../usart.c:21: error: for each function it appears in.)
+../usart.c:21: error: 'O_NOCTTY' undeclared (first use in this function)
+../usart.c:21: error: 'O_NDELAY' undeclared (first use in this function)
+../usart.c: At top level:
+../usart.c:40: warning: 'main' takes only zero or two arguments
+../usart.c: In function 'main':
+../usart.c:40: error: parameter name omitted
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project usart_test ****
+
+make clean 
+rm -rf  ./usart.o  ./usart.d  usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'seriral_test':
+../usart.c:21: warning: implicit declaration of function 'open'
+../usart.c:21: error: 'O_RDWR' undeclared (first use in this function)
+../usart.c:21: error: (Each undeclared identifier is reported only once
+../usart.c:21: error: for each function it appears in.)
+../usart.c:21: error: 'O_NOCTTY' undeclared (first use in this function)
+../usart.c:21: error: 'O_NDELAY' undeclared (first use in this function)
+../usart.c: At top level:
+../usart.c:40: warning: 'main' takes only zero or two arguments
+../usart.c: In function 'main':
+../usart.c:40: error: parameter name omitted
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'seriral_test':
+../usart.c:21: warning: implicit declaration of function 'open'
+../usart.c:21: error: 'O_RDWR' undeclared (first use in this function)
+../usart.c:21: error: (Each undeclared identifier is reported only once
+../usart.c:21: error: for each function it appears in.)
+../usart.c:21: error: 'O_NOCTTY' undeclared (first use in this function)
+../usart.c:21: error: 'O_NDELAY' undeclared (first use in this function)
+../usart.c: At top level:
+../usart.c:40: warning: 'main' takes only zero or two arguments
+../usart.c: In function 'main':
+../usart.c:40: error: parameter name omitted
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'seriral_test':
+../usart.c:21: warning: implicit declaration of function 'open'
+../usart.c:21: error: 'O_RDWR' undeclared (first use in this function)
+../usart.c:21: error: (Each undeclared identifier is reported only once
+../usart.c:21: error: for each function it appears in.)
+../usart.c:21: error: 'O_NOCTTY' undeclared (first use in this function)
+../usart.c:21: error: 'O_NDELAY' undeclared (first use in this function)
+../usart.c: At top level:
+../usart.c:40: warning: 'main' takes only zero or two arguments
+../usart.c: In function 'main':
+../usart.c:40: error: parameter name omitted
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:69: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:69: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:89: error: 'for' loop initial declarations are only allowed in C99 mode
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:72: error: 'op_status' undeclared (first use in this function)
+../usart.c:72: error: (Each undeclared identifier is reported only once
+../usart.c:72: error: for each function it appears in.)
+../usart.c:92: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:70: error: expected expression before '=' token
+../usart.c:70: warning: statement with no effect
+../usart.c:91: error: expected expression before '=' token
+../usart.c:91: warning: statement with no effect
+../usart.c:94: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:91: error: expected expression before '=' token
+../usart.c:91: warning: statement with no effect
+../usart.c:94: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:94: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project usart_test ****
+
+make clean 
+rm -rf  ./usart.o  ./usart.d  usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:94: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:97: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:102: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:102: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:59: warning: 'status' is used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:76: error: expected expression before '.' token
+../usart.c:102: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:76: error: expected expression before '.' token
+../usart.c:102: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:76: error: expected expression before '.' token
+../usart.c:102: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:76: error: expected expression before '.' token
+../usart.c:102: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:102: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:59: warning: 'status' is used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'main':
+../usart.c:103: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:59: warning: 'status' is used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

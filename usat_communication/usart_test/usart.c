@@ -14,11 +14,16 @@ creat by Mr.kon @2016-11-13
 #include <asm/ioctls.h>
 #include <time.h>
 #include <pthread.h>
+#include <sys/select.h>
+
+#define DEBUG               1  //if debug=1,print debug message
 
 #define MAX_READ_SIZE 0xFF
 
-int file_t;//serial port file
+int file_t,com2_t;//serial port file
 unsigned char rxbuf[MAX_READ_SIZE];
+
+//pthread_mutex_t uart_mutex = PTHREAD_MUTEX_INITIALIZER; // mutex semaphore
 /*****************************************************************************
 seriral_test
 description:
@@ -28,13 +33,13 @@ edited by Mr.kon  @2016-11-14`
 static int seriral_test(void)
 {
 	int op_status = 0;
-	file_t = open("/dev/ttySP0",O_RDWR | O_NOCTTY | O_NDELAY );
+	file_t = open("/dev/ttySP1",O_RDWR | O_NOCTTY | O_NDELAY );
 	if( file_t < 0)
 	{
 		printf("open SPI device error\n");
 		return -1;
 	}
-	op_status = write(file_t, "usat test project!\n", 18);
+	op_status = write(file_t, "usart test project!\n", 18);
 	if(op_status < 0)
 	{
 		printf("write file error\n");
@@ -46,20 +51,141 @@ static int seriral_test(void)
 	return 0;
 }
 /*****************************************************************************
- **/
+  creat listening thread
+ *****************************************************************************/
+void *ListeningUsart(void *fl_t)
+{
+	int fl_id = (long)fl_t;
+
+    printf("thread start");
+    fd_set readfds;
+    struct timeval tv;
+    tv.tv_sec = 0;
+    tv.tv_usec = 100000;//100ms
+   /**whe**/
+	unsigned char n = 0;
+	printf("thread_file_id= %d",fl_id);
+	while(1)
+	{
+		//pthread_mutex_lock(&uart_mutex);
+		FD_ZERO(&readfds);
+		FD_SET(fl_id, &readfds);
+		int ret = select(fl_id + 1, &readfds, NULL, NULL, &tv);
+		if (ret > 0)
+		{
+
+			//	sleep(1);
+			/* read MAX_READ_SIZE bytes data value from serial port */
+			int read_len = read(fl_id, rxbuf, 10);
+
+			if (read_len > 0)
+			{
+				for (unsigned char i = 0; i < read_len; i++)
+				{
+
+					printf("%X", rxbuf[i]); //print the rx message from child thread
+
+				}
+				printf("\nread_len = %d\n", read_len);
+				n++;
+			}
+		}
+		//pthread_mutex_unlock(&uart_mutex);
+
+	}
+  pthread_exit(NULL);
+}
+/*****************************************************************************
+  open sriral port
+  return: the file of port
+ *****************************************************************************/
+static int openSerial(char *cSerialName)
+{
+    int iFd;
+
+    struct termios opt;
+
+    iFd = open(cSerialName, O_RDWR | O_NOCTTY);
+    if(iFd < 0) {
+        perror(cSerialName);
+        return -1;
+    }
+
+    tcgetattr(iFd, &opt);
+    //cfsetispeed(&opt, B57600);
+    //cfsetospeed(&opt, B57600);
+
+     cfsetispeed(&opt, B115200);
+     cfsetospeed(&opt, B115200);
+
+
+    /*
+     * raw mode
+     */
+    opt.c_lflag   &=   ~(ECHO   |   ICANON   |   IEXTEN   |   ISIG);
+    opt.c_iflag   &=   ~(BRKINT   |   ICRNL   |   INPCK   |   ISTRIP   |   IXON);
+    opt.c_oflag   &=   ~(OPOST);
+    opt.c_cflag   &=   ~(CSIZE   |   PARENB);
+    opt.c_cflag   |=   CS8;
+
+    /*
+     * 'DATA_LEN' bytes can be read by serial
+     */
+    opt.c_cc[VMIN]   =   1;//
+    opt.c_cc[VTIME]  =   1;//wait time for reading once
+
+    if (tcsetattr(iFd,   TCSANOW,   &opt)<0) {
+        return   -1;
+    }
+
+
+    return iFd;
+}
+/*****************************************************************************
+Parameters:
+unsigned char * rxbuf
+unsigned char   length
+Description:
+process the receive data
+
+return: the error type
+******************************************************************************/
+unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth)
+{
+	if(lenth < 6)
+	{
+#if DEBUG
+		printf("usart rx message length is not enouge");
+#endif
+		return 0x01;//
+	}
+
+	if(rxbuf[0] == 0xa5 && rxbuf[1] == 0x5a)
+	{
+		//judge the length
+
+	}
+	return 0;
+}
 
 /*****************************************************************************
 
 ******************************************************************************/
 int main(void)
 {
-	pid_t uart_tx_pid;
+    pthread_t thread;
 	int status;
 
-	file_t = open("/dev/ttySP0",O_RDWR | O_NOCTTY | O_NDELAY );
-	if(status < 0)
+	file_t= openSerial("/dev/ttySP3");
+	//com2_t = openSerial("/dev/ttySP2");
+	if( file_t < 0)
 	{
-		return 0;
+		printf("open usart device error\n");
+		return -1;
+	}
+	else
+	{
+		write(file_t, "usart tx test", 13);
 	}
 	/** open the usart port0 **/
 //	if( seriral_test() < 0)
@@ -67,52 +193,27 @@ int main(void)
 //     return 0;
 //	}
 
-	uart_tx_pid = fork();
+	/** create thread 1 **/
+	status = pthread_create(&thread, NULL, ListeningUsart, (void*)file_t);
 
-	/* child process */
-	if(uart_tx_pid == 0)
+	if(status)
 	{
-		printf("here is chld prcess, child_pid = %d  , paaent_pid = %d \n",getpid(),getppid() );
-		file_t =  open("/dev/ttySP0",O_RDWR | O_NOCTTY | O_NDELAY );
-		for(unsigned char i = 0; i < 5; i ++)
-		{
-			sleep(0.5);
-			 status = write(file_t, "usart tx test i = %d\n", 20);
-            if(status < 0)
+		/*  creat thread failed */
+		printf("creat thread failed\n");
+	}
+	printf("file_id= %d \n",file_t);
+    while(1)
+	{
+    	//pthread_mutex_lock(&uart_mutex);
+	    status = write(file_t, "usart tx test\r", 14);
+	   // pthread_mutex_unlock(&uart_mutex);
+       if(status < 0)
             {
-            	exit(0);
+            	break;
             }
-			/*exit child process */
-		}
-		exit(0);
+		sleep(1);
 	}
-	/* parent process */
-	else if(uart_tx_pid > 0)
-	{
-		printf("parent process, parent_pid = %d \n",getpid());
-		unsigned char n = 0;
-		while(n < 5)
-		{
-			/* read MAX_READ_SIZE bytes data value from serial port */
-			 int read_len = read(file_t, rxbuf ,MAX_READ_SIZE);
-			if(read_len < MAX_READ_SIZE)
-			{
-
-				for( unsigned char i = 0; i < read_len; i --)
-				{
-
-					printf("%s", rxbuf[i]);//print the rx message from child process
-
-				}
-				n ++;
-			}
-		}
-	}
-	else
-	{
-		printf("fork erro,creat process erro! \n");
-	}
-	close(file_t);
-
+  pthread_join(thread,NULL);
+  close(file_t);
 return 0;
 }

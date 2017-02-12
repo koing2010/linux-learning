@@ -924,3 +924,3425 @@ make all
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: In function 'main':
+../usart.c:106: warning: implicit declaration of function 'prinf'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:87: warning: 'status' is used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+./usart.o: In function `main':
+/home/kon/linux-learning/usat_communication/usart_test/Debug/../usart.c:99: undefined reference to `pthread_create'
+/home/kon/linux-learning/usat_communication/usart_test/Debug/../usart.c:106: undefined reference to `prinf'
+collect2: ld returned 1 exit status
+make: *** [usart_test] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:87: warning: 'status' is used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+./usart.o: In function `main':
+/home/kon/linux-learning/usat_communication/usart_test/Debug/../usart.c:99: undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make: *** [usart_test] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+./usart.o: In function `main':
+/home/kon/linux-learning/usat_communication/usart_test/Debug/../usart.c:95: undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make: *** [usart_test] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+./usart.o: In function `main':
+/home/kon/linux-learning/usat_communication/usart_test/Debug/../usart.c:95: undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make: *** [usart_test] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+./usart.o: In function `main':
+/home/kon/linux-learning/usat_communication/usart_test/Debug/../usart.c:95: undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make: *** [usart_test] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -lpthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   
+./usart.o: In function `main':
+/home/kon/linux-learning/usat_communication/usart_test/Debug/../usart.c:95: undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make: *** [usart_test] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 --lpthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+cc1: error: unrecognized command line option "-flpthread"
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: In function 'main':
+../usart.c:112: error: expected expression before '.' token
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: In function 'main':
+../usart.c:112: error: expected expression before '.' token
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:69: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:55: warning: format '%ld' expects type 'long int', but argument 2 has type 'void *'
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: error: 'threadid' undeclared (first use in this function)
+../usart.c:53: error: (Each undeclared identifier is reported only once
+../usart.c:53: error: for each function it appears in.)
+../usart.c:59: warning: format '%d' expects type 'int', but argument 2 has type 'void *'
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:53: warning: unused variable 'thr_id'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:59: error: '_id' undeclared (first use in this function)
+../usart.c:59: error: (Each undeclared identifier is reported only once
+../usart.c:59: error: for each function it appears in.)
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:59: error: '_id' undeclared (first use in this function)
+../usart.c:59: error: (Each undeclared identifier is reported only once
+../usart.c:59: error: for each function it appears in.)
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: assignment makes pointer from integer without a cast
+../usart.c:59: error: expected expression before ')' token
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: assignment makes pointer from integer without a cast
+../usart.c:59: warning: format '%d' expects type 'int', but argument 2 has type 'void *'
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: In function 'main':
+../usart.c:87: warning: unused variable 'thread'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:105: warning: 'status' may be used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: In function 'main':
+../usart.c:87: warning: unused variable 'thread'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:105: warning: 'status' may be used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: In function 'main':
+../usart.c:87: warning: unused variable 'thread'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+../usart.c: In function 'main':
+../usart.c:105: warning: 'status' may be used uninitialized in this function
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: In function 'main':
+../usart.c:120: warning: passing argument 1 of 'pthread_exit' makes pointer from integer without a cast
+/opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/../../../../arm-fsl-linux-gnueabi/include/pthread.h:236: note: expected 'void *' but argument is of type 'pthread_t'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: In function 'openSerial':
+../usart.c:118: error: 'DATA_LEN' undeclared (first use in this function)
+../usart.c:118: error: (Each undeclared identifier is reported only once
+../usart.c:118: error: for each function it appears in.)
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: In function 'openSerial':
+../usart.c:118: error: 'DATA_LEN' undeclared (first use in this function)
+../usart.c:118: error: (Each undeclared identifier is reported only once
+../usart.c:118: error: for each function it appears in.)
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: In function 'openSerial':
+../usart.c:118: error: 'DATA_LEN' undeclared (first use in this function)
+../usart.c:118: error: (Each undeclared identifier is reported only once
+../usart.c:118: error: for each function it appears in.)
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c:70: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:53: warning: initialization makes integer from pointer without a cast
+../usart.c:71: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:28: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:56: warning: initialization makes integer from pointer without a cast
+../usart.c:59: error: 'fd_set' undeclared (first use in this function)
+../usart.c:59: error: (Each undeclared identifier is reported only once
+../usart.c:59: error: for each function it appears in.)
+../usart.c:59: error: expected ';' before 'readfds'
+../usart.c:60: error: storage size of 'tv' isn't known
+../usart.c:68: warning: implicit declaration of function 'FD_ZERO'
+../usart.c:68: error: 'readfds' undeclared (first use in this function)
+../usart.c:69: warning: implicit declaration of function 'FD_SET'
+../usart.c:70: warning: implicit declaration of function 'select'
+../usart.c:83: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:60: warning: unused variable 'tv'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:61: error: storage size of 'tv' isn't known
+../usart.c:84: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c:61: warning: unused variable 'tv'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:62: error: 'struct timeval' has no member named 'tc_sec'
+../usart.c:84: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:62: error: 'struct timeval' has no member named 'tc_sec'
+../usart.c:84: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:84: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project usart_test ****
+
+make clean 
+rm -rf  ./usart.o  ./usart.d  usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: In function 'openSerial':
+../usart.c:114: error: 'ls' undeclared (first use in this function)
+../usart.c:114: error: (Each undeclared identifier is reported only once
+../usart.c:114: error: for each function it appears in.)
+../usart.c:118: error: expected ';' before 'cfsetispeed'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project usart_test ****
+
+make clean 
+rm -rf  ./usart.o  ./usart.d  usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: In function 'main':
+../usart.c:157: error: 'ls' undeclared (first use in this function)
+../usart.c:157: error: (Each undeclared identifier is reported only once
+../usart.c:157: error: for each function it appears in.)
+../usart.c:165: error: expected ';' before 'status'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project usart_test ****
+
+make clean 
+rm -rf  ./usart.o  ./usart.d  usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: dereferencing 'void *' pointer
+../usart.c:57: error: void value not ignored as it ought to be
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:66: warning: format '%d' expects type 'int', but argument 2 has type 'int *'
+../usart.c:71: error: invalid operands to binary / (have 'int *' and 'int')
+../usart.c:71: error: invalid operands to binary % (have 'int *' and 'int')
+../usart.c:72: warning: passing argument 1 of 'select' makes integer from pointer without a cast
+/opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/../../../../arm-fsl-linux-gnueabi/include/sys/select.h:109: note: expected 'int' but argument is of type 'int *'
+../usart.c:78: warning: passing argument 1 of 'read' makes integer from pointer without a cast
+/opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/../../../../arm-fsl-linux-gnueabi/include/unistd.h:357: note: expected 'int' but argument is of type 'int *'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:66: warning: format '%d' expects type 'int', but argument 2 has type 'int *'
+../usart.c:71: error: invalid operands to binary / (have 'int *' and 'int')
+../usart.c:71: error: invalid operands to binary % (have 'int *' and 'int')
+../usart.c:72: warning: passing argument 1 of 'select' makes integer from pointer without a cast
+/opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/../../../../arm-fsl-linux-gnueabi/include/sys/select.h:109: note: expected 'int' but argument is of type 'int *'
+../usart.c:78: warning: passing argument 1 of 'read' makes integer from pointer without a cast
+/opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/../../../../arm-fsl-linux-gnueabi/include/unistd.h:357: note: expected 'int' but argument is of type 'int *'
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: initialization makes integer from pointer without a cast
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:57: warning: dereferencing 'void *' pointer
+../usart.c:57: error: void value not ignored as it ought to be
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:85: warning: format '%s' expects type 'char *', but argument 2 has type 'int'
+../usart.c: At top level:
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:32: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

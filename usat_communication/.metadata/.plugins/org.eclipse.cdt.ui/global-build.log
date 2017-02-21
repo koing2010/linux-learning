@@ -4346,3 +4346,107 @@ make all
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:33: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function 'ListeningUsart':
+../usart.c:90: warning: implicit declaration of function 'ProcessRxMsg'
+../usart.c: At top level:
+../usart.c:153: error: conflicting types for 'ProcessRxMsg'
+../usart.c:90: note: previous implicit declaration of 'ProcessRxMsg' was here
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:35: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:35: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+Building file: ../usart.c
+Invoking: Cross GCC Compiler
+arm-none-linux-gnueabi-gcc --std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c:35: warning: 'seriral_test' defined but not used
+Finished building: ../usart.c
+ 
+Building target: usart_test
+Invoking: Cross GCC Linker
+arm-none-linux-gnueabi-gcc  -o "usart_test"  ./usart.o   -lpthread
+Finished building target: usart_test
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project usart_test ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

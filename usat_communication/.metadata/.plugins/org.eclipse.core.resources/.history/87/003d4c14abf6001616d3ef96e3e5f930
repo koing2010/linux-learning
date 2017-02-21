@@ -16,8 +16,6 @@ creat by Mr.kon @2016-11-13
 #include <pthread.h>
 #include <sys/select.h>
 
-unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth);
-
 #define DEBUG               1  //if debug=1,print debug message
 
 #define MAX_READ_SIZE 0xFF
@@ -157,7 +155,7 @@ unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth)
 	if(lenth < 6)
 	{
 #if DEBUG
-		printf("usart rx message length is not enouge\n");
+		printf("usart rx message length is not enouge");
 #endif
 		return 0x01;//
 	}
@@ -167,12 +165,6 @@ unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth)
 		//judge the length
 
 	}
-#if DEBUG
-	else
-	{
-		printf("usart rx message start code is not right\n");
-	}
-#endif
 	return 0;
 }
 

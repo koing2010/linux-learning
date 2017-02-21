@@ -16,8 +16,6 @@ creat by Mr.kon @2016-11-13
 #include <pthread.h>
 #include <sys/select.h>
 
-unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth);
-
 #define DEBUG               1  //if debug=1,print debug message
 
 #define MAX_READ_SIZE 0xFF
@@ -65,7 +63,7 @@ void *ListeningUsart(void *fl_t)
     tv.tv_sec = 0;
     tv.tv_usec = 100000;//100ms
    /**whe**/
-
+	unsigned char n = 0;
 	printf("thread_file_id= %d",fl_id);
 	while(1)
 	{
@@ -89,7 +87,7 @@ void *ListeningUsart(void *fl_t)
 
 				}
 				printf("\nread_len = %d\n", read_len);
-				ProcessRxMsg(rxbuf, read_len);
+				n++;
 			}
 		}
 		//pthread_mutex_unlock(&uart_mutex);
@@ -157,7 +155,7 @@ unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth)
 	if(lenth < 6)
 	{
 #if DEBUG
-		printf("usart rx message length is not enouge\n");
+		printf("usart rx message length is not enouge");
 #endif
 		return 0x01;//
 	}
@@ -167,12 +165,6 @@ unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth)
 		//judge the length
 
 	}
-#if DEBUG
-	else
-	{
-		printf("usart rx message start code is not right\n");
-	}
-#endif
 	return 0;
 }
 

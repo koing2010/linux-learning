@@ -157,7 +157,7 @@ unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth)
 	if(lenth < 6)
 	{
 #if DEBUG
-		printf("usart rx message length is not enouge\n");
+		printf("usart rx message length is not enouge");
 #endif
 		return 0x01;//
 	}
@@ -170,7 +170,7 @@ unsigned char ProcessRxMsg(unsigned char * rxbuf, unsigned char lenth)
 #if DEBUG
 	else
 	{
-		printf("usart rx message start code is not right\n");
+		printf("usart rx message start code is not right");
 	}
 #endif
 	return 0;

@@ -1,5 +1,5 @@
 //socket.c
-//×÷Õß£ºÍõÕñ
+//ä½œè€…ï¼šç‹æŒ¯
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,7 +31,7 @@ int Socket_Connect(char *ip,char *port)
 
     
     addr.sin_family = AF_INET;
-    addr.sin_addr.s_addr = inet_addr(ip);//127.0.0.1Îª±¾»úip
+    addr.sin_addr.s_addr = inet_addr(ip);//127.0.0.1ä¸ºæœ¬æœºip
     addr.sin_port = htons(atoi(port));
     len = sizeof(addr);
         
@@ -43,18 +43,18 @@ int Socket_Connect(char *ip,char *port)
 
 
 /*
-¹¦ÄÜ:Ïòsocketfd·¢ËÍÊı¾İ,ÄÚ²¿ÊµÏÖÁËÑ­»··¢ËÍlen³¤¶È
-²ÎÊı:
-sockfd ÊÇ´ú±íÄãÓëÔ¶³Ì³ÌĞòÁ¬½ÓµÄÌ×½Ó×ÖÃèÊö·û¡£
-msg ÊÇÒ»¸öÖ¸Õë£¬Ö¸ÏòÄãÏë·¢ËÍµÄĞÅÏ¢µÄµØÖ·¡£
-len ÊÇÄãÏë·¢ËÍĞÅÏ¢µÄ³¤¶È¡£
-flags ·¢ËÍ±ê¼Ç¡£Ò»°ã¶¼ÉèÎª0
-·µ»Ø:
-0-------- ³É¹¦
-ÍË³ö---Ê§°Ü
-ĞŞ¸Ä:
-±¸×¢:
-ÍõÕñ
+åŠŸèƒ½:å‘socketfdå‘é€æ•°æ®,å†…éƒ¨å®ç°äº†å¾ªç¯å‘é€lené•¿åº¦
+å‚æ•°:
+sockfd æ˜¯ä»£è¡¨ä½ ä¸è¿œç¨‹ç¨‹åºè¿æ¥çš„å¥—æ¥å­—æè¿°ç¬¦ã€‚
+msg æ˜¯ä¸€ä¸ªæŒ‡é’ˆï¼ŒæŒ‡å‘ä½ æƒ³å‘é€çš„ä¿¡æ¯çš„åœ°å€ã€‚
+len æ˜¯ä½ æƒ³å‘é€ä¿¡æ¯çš„é•¿åº¦ã€‚
+flags å‘é€æ ‡è®°ã€‚ä¸€èˆ¬éƒ½è®¾ä¸º0
+è¿”å›:
+0-------- æˆåŠŸ
+é€€å‡º---å¤±è´¥
+ä¿®æ”¹:
+å¤‡æ³¨:
+ç‹æŒ¯
 */
 int Send(int sockfd, char *sendbuf, int len, int flags)
 {

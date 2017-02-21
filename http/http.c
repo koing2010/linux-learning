@@ -1,5 +1,5 @@
 //http.c
-//×÷Õß£ºÍõÕñ
+//ä½œè€…ï¼šç‹æŒ¯
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
@@ -13,27 +13,27 @@
 #include "http.h"
 
 
-#define MAX_RECV_SIZE    1440//Ó²¼şµ¥°ü×î´óµÄ½ÓÊÕ×Ö½ÚÊı
+#define MAX_RECV_SIZE    1440//ç¡¬ä»¶å•åŒ…æœ€å¤§çš„æ¥æ”¶å­—èŠ‚æ•°
 char g_host[URL_LEN];
-char g_ip[URL_LEN+1];//ip/ÓòÃû
+char g_ip[URL_LEN+1];//ip/åŸŸå
 char g_port[5+1];
 
-char g_buf_send[4*1024];//·¢ËÍÊı¾İÔİ´æÇø
-char g_buf_recv[10*1024];//½ÓÊÕÊı¾İÔİ´æÇø
+char g_buf_send[4*1024];//å‘é€æ•°æ®æš‚å­˜åŒº
+char g_buf_recv[10*1024];//æ¥æ”¶æ•°æ®æš‚å­˜åŒº
 
 BreakPoint_ST g_break_point;
 
 /*
-¹¦ÄÜ:ÅĞ¶Ï¶ÏµãÓĞĞ§ĞÔ,ÏÖÔÚĞ£ÑéurlÊÇ·ñÒ»ÖÂ
-²ÎÊı:
-·µ»Ø:
->0---------ÓĞĞ§,ÒÑÏÂÔØÎÄ¼ş´óĞ¡
--1----------ÎŞĞ§
+åŠŸèƒ½:åˆ¤æ–­æ–­ç‚¹æœ‰æ•ˆæ€§,ç°åœ¨æ ¡éªŒurlæ˜¯å¦ä¸€è‡´
+å‚æ•°:
+è¿”å›:
+>0---------æœ‰æ•ˆ,å·²ä¸‹è½½æ–‡ä»¶å¤§å°
+-1----------æ— æ•ˆ
 */
 int Get_Breakpoint_Available(BreakPoint_ST *breakpoint,char *url,char *file_crc)
 {
     
-    //ÅĞ¶Ï¶ÏµãÊÇ·ñÓĞĞ§,ºóĞø¼ÓÈëÎÄ¼şĞ£ÑéÂë
+    //åˆ¤æ–­æ–­ç‚¹æ˜¯å¦æœ‰æ•ˆ,åç»­åŠ å…¥æ–‡ä»¶æ ¡éªŒç 
     if((memcmp(breakpoint->url,url,strlen(url))== 0)&&(breakpoint->recv_size== MAX_RECV_SIZE))
         return breakpoint->download_size;
     else
@@ -45,13 +45,13 @@ int Get_Breakpoint_Available(BreakPoint_ST *breakpoint,char *url,char *file_crc)
 
 
 /*
-¹¦ÄÜ:ÅĞ¶ÏÒªÏÂÔØÎÄ¼şÊÇ·ñ´æÔÚ¶Ïµã
-²ÎÊı:
-filename---ÒªÏÂÔØµÄÎÄ¼şÃû
-file_crc----·şÎñÆ÷·µ»ØÏÂÔØÎÄ¼şµÄĞ£ÑéÂë
-·µ»Ø:
-0---------ÎŞ¶Ïµã
->0--------ÓĞ¶Ïµã,ÒÑÏÂÔØÎÄ¼ş´óĞ¡
+åŠŸèƒ½:åˆ¤æ–­è¦ä¸‹è½½æ–‡ä»¶æ˜¯å¦å­˜åœ¨æ–­ç‚¹
+å‚æ•°:
+filename---è¦ä¸‹è½½çš„æ–‡ä»¶å
+file_crc----æœåŠ¡å™¨è¿”å›ä¸‹è½½æ–‡ä»¶çš„æ ¡éªŒç 
+è¿”å›:
+0---------æ— æ–­ç‚¹
+>0--------æœ‰æ–­ç‚¹,å·²ä¸‹è½½æ–‡ä»¶å¤§å°
 */
 int Get_Breakpoint(char *url,char *filename,char *file_crc)
 {
@@ -60,10 +60,10 @@ int Get_Breakpoint(char *url,char *filename,char *file_crc)
     int ret;
     BreakPoint_ST break_point;
     
-    //¶ÏµãÎÄ¼şÃû filename+bp
+    //æ–­ç‚¹æ–‡ä»¶å filename+bp
     sprintf(filename_bp,"%s.bp",filename);
 
-    //¼ì²âÊÇ·ñ´æÔÚfilename¶ÏµãÎÄ¼ş
+    //æ£€æµ‹æ˜¯å¦å­˜åœ¨filenameæ–­ç‚¹æ–‡ä»¶
     fd = open(filename_bp,O_RDONLY,S_IRUSR|S_IWUSR);
     if(fd == -1)
     {    
@@ -73,7 +73,7 @@ int Get_Breakpoint(char *url,char *filename,char *file_crc)
         return 0;
     }
 
-    //´æÔÚ¶Ïµã
+    //å­˜åœ¨æ–­ç‚¹
     ret = read(fd,&break_point,sizeof(break_point));
     if(ret != sizeof(break_point))
     {
@@ -83,7 +83,7 @@ int Get_Breakpoint(char *url,char *filename,char *file_crc)
 
     close(fd);
 
-    //ÅĞ¶Ï¶ÏµãÊÇ·ñÓĞĞ§
+    //åˆ¤æ–­æ–­ç‚¹æ˜¯å¦æœ‰æ•ˆ
     ret = Get_Breakpoint_Available(&break_point,url,file_crc);
     if(ret > 0)
         return ret;
@@ -99,25 +99,25 @@ int Get_Breakpoint(char *url,char *filename,char *file_crc)
 }
 
 /*
-¹¦ÄÜ:±£´æ¶ÏµãĞÅÏ¢,ÎÄ¼şÃûfilename.bp
-²ÎÊı:
-filename---ÒªÏÂÔØµÄÎÄ¼şÃû
-file_crc----·şÎñÆ÷·µ»ØÏÂÔØÎÄ¼şµÄĞ£ÑéÂë
-·µ»Ø:
-0---------³É¹¦
->0--------ÓĞ¶Ïµã,ÒÑÏÂÔØÎÄ¼ş´óĞ¡
+åŠŸèƒ½:ä¿å­˜æ–­ç‚¹ä¿¡æ¯,æ–‡ä»¶åfilename.bp
+å‚æ•°:
+filename---è¦ä¸‹è½½çš„æ–‡ä»¶å
+file_crc----æœåŠ¡å™¨è¿”å›ä¸‹è½½æ–‡ä»¶çš„æ ¡éªŒç 
+è¿”å›:
+0---------æˆåŠŸ
+>0--------æœ‰æ–­ç‚¹,å·²ä¸‹è½½æ–‡ä»¶å¤§å°
 */
 int Save_Breakpoint(char *url,char *filename,int download_size,char *file_crc)
 {
     int fd;
     BreakPoint_ST breakpoint;
-    char filename_bp[128];//¶ÏµãĞÅÏ¢ÎÄ¼şÃû£¬°üº¬Â·¾¶
+    char filename_bp[128];//æ–­ç‚¹ä¿¡æ¯æ–‡ä»¶åï¼ŒåŒ…å«è·¯å¾„
 
     sprintf(filename_bp,"%s.bp",filename);
-    /* ´´½¨Ä¿µÄÎÄ¼ş */
+    /* åˆ›å»ºç›®çš„æ–‡ä»¶ */
     if((fd=open(filename_bp,O_WRONLY|O_CREAT,S_IRUSR|S_IWUSR))==-1)
     {
-        fprintf(stderr,"Open %s Error£º%s\n",filename_bp,strerror(errno));
+        fprintf(stderr,"Open %s Errorï¼š%s\n",filename_bp,strerror(errno));
         exit(1);
     }
     memset(&breakpoint,0x0,sizeof(breakpoint));
@@ -143,19 +143,19 @@ int Save_Breakpoint(char *url,char *filename,int download_size,char *file_crc)
 }
 
 /*
-¹¦ÄÜ:±£´æÎÄ¼ş,×·¼ÓĞ´
-²ÎÊı:
-·µ»Ø:
-0---------³É¹¦
+åŠŸèƒ½:ä¿å­˜æ–‡ä»¶,è¿½åŠ å†™
+å‚æ•°:
+è¿”å›:
+0---------æˆåŠŸ
 */
 
 int Save_File(char *filebuf,int filelength,char *filename)
 {
     int fd;
-    /* ´´½¨Ä¿µÄÎÄ¼ş×·¼ÓĞ´ */
+    /* åˆ›å»ºç›®çš„æ–‡ä»¶è¿½åŠ å†™ */
     if((fd=open(filename,O_WRONLY|O_CREAT|O_APPEND,S_IRUSR|S_IWUSR))==-1)
     {
-        fprintf(stderr,"Open %s Error£º%s\n",filename,strerror(errno));
+        fprintf(stderr,"Open %s Errorï¼š%s\n",filename,strerror(errno));
         exit(1);
     }
     //xu tioa zheng wei fen ci xie ru
@@ -180,18 +180,18 @@ int HTTP_GetResponseCode(void)
 }
 
  /*
-¹¦ÄÜ:¶ÁÈ¡http·µ»ØµÄĞ­ÒéÊµÌåÖ÷Ìå³¤¶È
-²ÎÊı:
-revbuf--------½ÓÊÕµ½µÄ·µ»ØÖµ
-·µ»ØÖµ:
->=0---------ÄÚÈİ(ÊµÌåÖ÷Ìå)µÄ³¤¶È
--1-----------Êı¾İ·µ»Ø´íÎó
+åŠŸèƒ½:è¯»å–httpè¿”å›çš„åè®®å®ä½“ä¸»ä½“é•¿åº¦
+å‚æ•°:
+revbuf--------æ¥æ”¶åˆ°çš„è¿”å›å€¼
+è¿”å›å€¼:
+>=0---------å†…å®¹(å®ä½“ä¸»ä½“)çš„é•¿åº¦
+-1-----------æ•°æ®è¿”å›é”™è¯¯
 */
 int HTTP_GetRecvLength(char *revbuf)
 {
     char *p1 = NULL;
-    int HTTP_Body = 0;//ÄÚÈİÌå³¤¶È
-    int HTTP_Head = 0;//HTTP Ğ­ÒéÍ·³¤¶È
+    int HTTP_Body = 0;//å†…å®¹ä½“é•¿åº¦
+    int HTTP_Head = 0;//HTTP åè®®å¤´é•¿åº¦
 
 
     HTTP_Body = HTTP_GetContentLength(revbuf);
@@ -203,7 +203,7 @@ int HTTP_GetRecvLength(char *revbuf)
         return -1;
     else
     {
-        HTTP_Head = p1- revbuf +4;// 4ÊÇ\r\n\r\nµÄ³¤¶È
+        HTTP_Head = p1- revbuf +4;// 4æ˜¯\r\n\r\nçš„é•¿åº¦
         return HTTP_Body+HTTP_Head;
     }
 
@@ -212,17 +212,17 @@ int HTTP_GetRecvLength(char *revbuf)
 
 
 /*
-¹¦ÄÜ:¶ÁÈ¡http·µ»ØµÄContent-Length³¤¶È
-²ÎÊı:
-revbuf--------½ÓÊÕµ½µÄÊı¾İ
-·µ»ØÖµ:
->=0---------Content-Length³¤¶È
--1-----------Êı¾İ·µ»Ø´íÎó
+åŠŸèƒ½:è¯»å–httpè¿”å›çš„Content-Lengthé•¿åº¦
+å‚æ•°:
+revbuf--------æ¥æ”¶åˆ°çš„æ•°æ®
+è¿”å›å€¼:
+>=0---------Content-Lengthé•¿åº¦
+-1-----------æ•°æ®è¿”å›é”™è¯¯
 */
 int HTTP_GetContentLength(char *revbuf)
 {
     char *p1 = NULL, *p2 = NULL;
-    int HTTP_Body = 0;//ÄÚÈİÌå³¤¶È
+    int HTTP_Body = 0;//å†…å®¹ä½“é•¿åº¦
 
     p1 = strstr(revbuf,"Content-Length");
     if(p1 == NULL)
@@ -237,14 +237,14 @@ int HTTP_GetContentLength(char *revbuf)
 }
 
  /*
- ¹¦ÄÜ:
- ²ÎÊı:
- sockfd--------½ÓÊÕµ½µÄ·µ»ØÖµ
- ·µ»ØÖµ:
- >0---------½ÓÊÕµ½³¤¶È
- -1----------Ê§°Ü
- =0---------·şÎñ¶Ë¶Ï¿ªÁ¬½Ó
- ×¢:ÄÚ²¿½ÓÊÕ»º³å10k
+ åŠŸèƒ½:
+ å‚æ•°:
+ sockfd--------æ¥æ”¶åˆ°çš„è¿”å›å€¼
+ è¿”å›å€¼:
+ >0---------æ¥æ”¶åˆ°é•¿åº¦
+ -1----------å¤±è´¥
+ =0---------æœåŠ¡ç«¯æ–­å¼€è¿æ¥
+ æ³¨:å†…éƒ¨æ¥æ”¶ç¼“å†²10k
  */
 
 int HTTP_Recv(int sockfd,char *buf_recv)
@@ -260,7 +260,7 @@ int HTTP_Recv(int sockfd,char *buf_recv)
     {
         ret = Recv(sockfd,buf_recv_tmp+recvlen,sizeof(buf_recv_tmp)-1,0);
 
-        if(ret <= 0)//ÏÂÔØÊ§°Ü
+        if(ret <= 0)//ä¸‹è½½å¤±è´¥
         {
             perror("ERR:recv fail");
             return ret;
@@ -273,7 +273,7 @@ int HTTP_Recv(int sockfd,char *buf_recv)
             printf("recv len = %d\n", ret);
              printf("recv = %s\n", buf_recv_tmp);
             #endif
-            //»ñÈ¡ĞèÒªÏÂÔØ³¤¶È;
+            //è·å–éœ€è¦ä¸‹è½½é•¿åº¦;
             downloadlen = HTTP_GetRecvLength(buf_recv_tmp);
 
 
@@ -287,7 +287,7 @@ int HTTP_Recv(int sockfd,char *buf_recv)
         printf("total recvlen = %d\n",recvlen);
         #endif
 
-        if(downloadlen == recvlen)//ÏÂÔØÍê³É
+        if(downloadlen == recvlen)//ä¸‹è½½å®Œæˆ
             break;
 
 
@@ -298,17 +298,17 @@ int HTTP_Recv(int sockfd,char *buf_recv)
 }
 
 /*
-¹¦ÄÜ:»ñÈ¡ÏÂÔØurlÖĞµÄÎÄ¼şÃû,×îºóÒ»¸ö/ºóµÄ×Ö·û
-²ÎÊı:
-·µ»ØÖµ:
-0-----------³É¹¦
--1----------Ê§°Ü
-×¢:ÄÚ²¿½ÓÊÕ»º³å10k
+åŠŸèƒ½:è·å–ä¸‹è½½urlä¸­çš„æ–‡ä»¶å,æœ€åä¸€ä¸ª/åçš„å­—ç¬¦
+å‚æ•°:
+è¿”å›å€¼:
+0-----------æˆåŠŸ
+-1----------å¤±è´¥
+æ³¨:å†…éƒ¨æ¥æ”¶ç¼“å†²10k
 */
 
 int HTTP_GetFileName(char *url,char *filename)
 {
-    //ÌáÈ¡urlÖĞ×îºóÒ»¸ö/ºóµÄÄÚÈİ
+    //æå–urlä¸­æœ€åä¸€ä¸ª/åçš„å†…å®¹
     int len;
     int i;
 
@@ -318,7 +318,7 @@ int HTTP_GetFileName(char *url,char *filename)
         if(url[i] == '/')
             break;
     }
-    if(i == 0)//ÏÂÔØµØÖ·´íÎó
+    if(i == 0)//ä¸‹è½½åœ°å€é”™è¯¯
     {
         printf("url not contain '/'\n");
         return -1;
@@ -335,12 +335,12 @@ int HTTP_GetFileName(char *url,char *filename)
 }
 
 /*
-¹¦ÄÜ:»ñÈ¡ÏÂÔØurlÖĞµÄÂ·¾¶,µÚÒ»¸ö/ºóµÄ×Ö·û
-²ÎÊı:
-·µ»ØÖµ:
-0-----------³É¹¦
--1----------Ê§°Ü
-×¢:url ex "http://host:port/path"
+åŠŸèƒ½:è·å–ä¸‹è½½urlä¸­çš„è·¯å¾„,ç¬¬ä¸€ä¸ª/åçš„å­—ç¬¦
+å‚æ•°:
+è¿”å›å€¼:
+0-----------æˆåŠŸ
+-1----------å¤±è´¥
+æ³¨:url ex "http://host:port/path"
 */
 int HTTP_GetPath(char *url,char *path)
 {
@@ -372,13 +372,13 @@ int HTTP_GetPath(char *url,char *path)
 
 }
 /*
-¹¦ÄÜ:»ñÈ¡ÏÂÔØurlÖĞµÄipºÍport,ipÖ§³ÖÓòÃû,¶Ë¿ÚÄ¬ÈÏÎª80
-²ÎÊı:
-·µ»ØÖµ:
-1-----------ÓòÃûÊ½
-2-----------ip portÊ½
--1----------Ê§°Ü
-×¢:url ex "http://host:port/path"
+åŠŸèƒ½:è·å–ä¸‹è½½urlä¸­çš„ipå’Œport,ipæ”¯æŒåŸŸå,ç«¯å£é»˜è®¤ä¸º80
+å‚æ•°:
+è¿”å›å€¼:
+1-----------åŸŸåå¼
+2-----------ip portå¼
+-1----------å¤±è´¥
+æ³¨:url ex "http://host:port/path"
 */
 
 int HTTP_Get_IP_PORT(char *url,char *ip,char *port)
@@ -448,7 +448,7 @@ void Package_Url_Get_File(char *path, char *range)
     sprintf(g_buf_send, "GET %s",path);
 
     
-    //HTTP/1.1\r\n Ç°ÃæĞèÒªÒ»¸ö¿Õ¸ñ
+    //HTTP/1.1\r\n å‰é¢éœ€è¦ä¸€ä¸ªç©ºæ ¼
     strcat(g_buf_send," HTTP/1.1\r\n");
     strcat(g_buf_send, "Host: ");
     strcat(g_buf_send, g_host);
@@ -469,7 +469,7 @@ int Package_Url_Get_FileSize(char *url)
     memset(g_buf_send,0x0,sizeof(g_buf_send));         
     sprintf(g_buf_send, "HEAD %s",url);
 
-        //HTTP/1.1\r\n Ç°ÃæĞèÒªÒ»¸ö¿Õ¸ñ
+        //HTTP/1.1\r\n å‰é¢éœ€è¦ä¸€ä¸ªç©ºæ ¼
     strcat(g_buf_send," HTTP/1.1\r\n");
     strcat(g_buf_send, "Host: ");
     strcat(g_buf_send, g_host);
@@ -518,21 +518,21 @@ int HTTP_GetFileSize(int sockfd,char *path)
 
 
 /*
-¹¦ÄÜ:·Ö¶ÎÏÂÔØÎÄ¼ş
-²ÎÊı:
-·µ»ØÖµ:
->0----------ÒÑÏÂÔØÎÄ¼ş´óĞ¡(²»°üº¬ÉÏ´ÎÏÂÔØ)
--1----------Ê§°Ü
+åŠŸèƒ½:åˆ†æ®µä¸‹è½½æ–‡ä»¶
+å‚æ•°:
+è¿”å›å€¼:
+>0----------å·²ä¸‹è½½æ–‡ä»¶å¤§å°(ä¸åŒ…å«ä¸Šæ¬¡ä¸‹è½½)
+-1----------å¤±è´¥
 */
 int HTTP_GetFile(int sockfd,char *path,int filelength,int download_size,char *filebuf)
 {
     int count;
     char range[32];
     int i;
-    int j = 0;//³É¹¦ÏÂÔØ´ÎÊı
+    int j = 0;//æˆåŠŸä¸‹è½½æ¬¡æ•°
     int ret = -1;
     char *p = NULL;
-    int download_index;//ÏÂÔØ¿ªÊ¼Ë÷Òı
+    int download_index;//ä¸‹è½½å¼€å§‹ç´¢å¼•
 
     count = (filelength%MAX_RECV_SIZE)?(filelength/MAX_RECV_SIZE +1):(filelength/MAX_RECV_SIZE);
 
@@ -540,7 +540,7 @@ int HTTP_GetFile(int sockfd,char *path,int filelength,int download_size,char *fi
 
     for(i=download_index;i<count;i++)
     {
-        //if(i == 20)//²âÊÔ¶Ïµã
+        //if(i == 20)//æµ‹è¯•æ–­ç‚¹
             //break;
 
 
@@ -556,18 +556,18 @@ int HTTP_GetFile(int sockfd,char *path,int filelength,int download_size,char *fi
         #endif
          Send(sockfd, g_buf_send, strlen(g_buf_send), 0);
 
-        /*Ğè¸ÄÎªÌáÈ¡http ·µ»ØĞ­ÒéÍ·ºÍĞ­ÒéÌå×Ü³¤,È»ºó¶¨³¤½ÓÊÕ*/
+        /*éœ€æ”¹ä¸ºæå–http è¿”å›åè®®å¤´å’Œåè®®ä½“æ€»é•¿,ç„¶åå®šé•¿æ¥æ”¶*/
         memset(g_buf_recv,0x0,sizeof(g_buf_recv));                                              
         ret = HTTP_Recv(sockfd,g_buf_recv);
         if(ret < 0)
             break;
-        if(ret == 0 )//·şÎñ¶Ë¶Ï¿ªÁ¬½Ó
+        if(ret == 0 )//æœåŠ¡ç«¯æ–­å¼€è¿æ¥
         {
             sockfd = Socket_Connect(g_ip,g_port);
              i--;
             continue;
         }
-        /*ÌáÈ¡Ğ­ÒéÌåÊı¾İ,±£´æÔÚfilebufÖĞ*/
+        /*æå–åè®®ä½“æ•°æ®,ä¿å­˜åœ¨filebufä¸­*/
         p = strstr(g_buf_recv,"\r\n\r\n");
         if(p == NULL)//jia ru duan dian baocun
         {
@@ -588,13 +588,13 @@ int HTTP_GetFile(int sockfd,char *path,int filelength,int download_size,char *fi
 }
 
 /*
-¹¦ÄÜ:HTTPÏÂÔØÎÄ¼ş
-²ÎÊı:
-·µ»ØÖµ:
-0----------ÏÂÔØÍê³É
--1---------Ê§°Ü
--2---------²¿·ÖÏÂÔØÍê³É
-×¢:±£´æÎÄ¼şµ½binËùÔÚÄ¿Â¼
+åŠŸèƒ½:HTTPä¸‹è½½æ–‡ä»¶
+å‚æ•°:
+è¿”å›å€¼:
+0----------ä¸‹è½½å®Œæˆ
+-1---------å¤±è´¥
+-2---------éƒ¨åˆ†ä¸‹è½½å®Œæˆ
+æ³¨:ä¿å­˜æ–‡ä»¶åˆ°binæ‰€åœ¨ç›®å½•
 */
 int HTTP_DownloadFile(char *url,char *save_path)
 {
@@ -605,11 +605,11 @@ int HTTP_DownloadFile(char *url,char *save_path)
     char filename[FILENAME_LEN+1];
     char filename_bp[FILENAME_LEN+3+1];
     char *filebuf;
-    char save_file_path[FILENAME_LEN+1];//±£´æÏÂÔØÎÄ¼şµÄÂ·¾¶+ÎÄ¼şÃû
+    char save_file_path[FILENAME_LEN+1];//ä¿å­˜ä¸‹è½½æ–‡ä»¶çš„è·¯å¾„+æ–‡ä»¶å
 
-    char path[PATH_LEN+1];//urlÖĞµÄpath
+    char path[PATH_LEN+1];//urlä¸­çš„path
 
-    //ÌáÈ¡ipºÍport»òurl(url Ôİ²»ÊµÏÖ,ĞèÒªgethostbyname linux)
+    //æå–ipå’Œportæˆ–url(url æš‚ä¸å®ç°,éœ€è¦gethostbyname linux)
     ret = HTTP_Get_IP_PORT(url,g_ip,g_port);
     if(ret == -1)
         return -1;
@@ -617,7 +617,7 @@ int HTTP_DownloadFile(char *url,char *save_path)
     {
         sprintf(g_host,"%s:%s",g_ip,g_port);
     }
-    //ÌáÈ¡ÏÂÔØÎÄ¼şÃû
+    //æå–ä¸‹è½½æ–‡ä»¶å
     ret = HTTP_GetFileName(url,filename);
     if(ret == -1)
         return -1;
@@ -626,17 +626,17 @@ int HTTP_DownloadFile(char *url,char *save_path)
     if(ret == -1)
         return -1;
     //sleep(3);//debug info
-    //½¨Á¢Á¬½Ó
+    //å»ºç«‹è¿æ¥
     sockfd = Socket_Connect(g_ip,g_port);
 
-    //»ñÈ¡ÏÂÔØÎÄ¼ş×Ü´óĞ¡
+    //è·å–ä¸‹è½½æ–‡ä»¶æ€»å¤§å°
     filesize = HTTP_GetFileSize(sockfd,path);
     if(filesize == -1)
         return -1;
     //#ifdef DEBUG_HTTP
     printf("http need download size %d\n",filesize);
     //#endif
-    //malloc·ÖÅä´æ´¢ÎÄ¼ş¿Õ¼ä
+    //mallocåˆ†é…å­˜å‚¨æ–‡ä»¶ç©ºé—´
     filebuf = (char *)malloc(filesize);
     if(filebuf == NULL)
     {
@@ -651,7 +651,7 @@ int HTTP_DownloadFile(char *url,char *save_path)
     printf("breakpoint download_size=%d\n",download_size);//debug info
     sleep(3);//debug info
     #endif
-    //·Ö¶ÎÏÂÔØÎÄ¼ş
+    //åˆ†æ®µä¸‹è½½æ–‡ä»¶
     ret = HTTP_GetFile(sockfd,path,filesize,download_size,filebuf);
     Close(sockfd);
     if(ret < 0)
@@ -672,7 +672,7 @@ int HTTP_DownloadFile(char *url,char *save_path)
         #endif
         Save_File(filebuf,ret,save_file_path);
         free(filebuf);
-        if((ret+download_size) == filesize)//È«²¿ÏÂÔØÍê³É
+        if((ret+download_size) == filesize)//å…¨éƒ¨ä¸‹è½½å®Œæˆ
         {
             sprintf(filename_bp,"%s.bp",filename);
             remove(filename_bp);
@@ -680,10 +680,10 @@ int HTTP_DownloadFile(char *url,char *save_path)
      printf("download success\n");
             return 0;
         }
-        else//²¿·ÖÏÂÔØÍê³É
+        else//éƒ¨åˆ†ä¸‹è½½å®Œæˆ
         {
             printf("part download success\n");
-            //±£´æ¶ÏµãĞÅÏ¢
+            //ä¿å­˜æ–­ç‚¹ä¿¡æ¯
             Save_Breakpoint(url,save_file_path,ret+download_size,NULL);
             return -2;
         }

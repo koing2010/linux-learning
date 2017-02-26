@@ -1,4 +1,5 @@
 //http.c
+//作者：王振
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>

@@ -14,6 +14,9 @@
 
 
 #define MAX_RECV_SIZE    1440//硬件单包最大的接收字节数
+#define DEBUG_HTTP
+
+
 char g_host[URL_LEN];
 char g_ip[URL_LEN+1];//ip/域名
 char g_port[5+1];
@@ -689,4 +692,21 @@ int HTTP_DownloadFile(char *url,char *save_path)
         }
     }
 
+}
+
+char loadurl[] ="http://upgrade-test-5itianyuan.oss-cn-beijing.aliyuncs.com/hardware/sc/rhxt/HDZT00A1-20170208-1.bin";
+char savepath[] = "/home/kon/Downloads";
+int main()
+{
+	int LoadState = 0;
+	LoadState = HTTP_DownloadFile(loadurl,savepath);
+	if( LoadState == 0)
+	{
+		printf("file download success\n");
+	}
+	else
+	{
+		printf("file download filed\n");
+	}
+return 0;
 }

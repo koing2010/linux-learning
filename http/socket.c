@@ -82,7 +82,6 @@ int Close(int sockfd)
 {
     return close(sockfd);
     
-
 }
 int Recv(int sockfd, char *recvbuf, int len, int flags)
 {
@@ -95,3 +94,4 @@ int Recv(int sockfd, char *recvbuf, int len, int flags)
     }
 
     return recv_len;
+}

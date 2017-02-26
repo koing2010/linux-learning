@@ -1,0 +1,23 @@
+/*
+ * http.h
+ *
+ *  Created on: Feb 24, 2017
+ *      Author: root
+ */
+
+#ifndef HTTP_H_
+#define HTTP_H_
+
+/***/
+typedef struct BreakPoint__
+{
+    int filename;
+    int download_size;
+    int recv_size;
+    char url[128];
+}BreakPoint_ST;
+
+#define URL_LEN        128;
+#define FILENAME_LEN   128;
+
+#endif /* HTTP_H_ */

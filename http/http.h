@@ -11,11 +11,11 @@
 /***/
 typedef struct BreakPoint__
 {
-    int filename;
-    int download_size;
-    int recv_size;
-    char url[128];
-}BreakPoint_ST;
+	char filename[124];
+	int download_size;
+	int recv_size;
+	char url[128];
+} BreakPoint_ST;
 
 #define URL_LEN        128
 #define FILENAME_LEN   128

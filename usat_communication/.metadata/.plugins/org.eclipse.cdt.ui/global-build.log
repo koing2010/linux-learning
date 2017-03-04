@@ -4812,3 +4812,1352 @@ make all
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project loadfile ****
+
+make clean 
+rm -rf  ./http.o ./socket.o  ./http.d ./socket.d  loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building file: ../socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"socket.d" -MT"socket.d" -o "socket.o" "../socket.c"
+../socket.c: In function ‘Socket_Connect’:
+../socket.c:34:5: warning: implicit declaration of function ‘inet_addr’ [-Wimplicit-function-declaration]
+../socket.c: In function ‘Close’:
+../socket.c:83:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+Finished building: ../socket.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project loadfile ****
+
+make clean 
+rm -rf  ./http.o ./socket.o  ./http.d ./socket.d  loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building file: ../socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"socket.d" -MT"socket.d" -o "socket.o" "../socket.c"
+../socket.c: In function ‘Socket_Connect’:
+../socket.c:34:5: warning: implicit declaration of function ‘inet_addr’ [-Wimplicit-function-declaration]
+../socket.c: In function ‘Close’:
+../socket.c:83:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+Finished building: ../socket.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:128:5: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [enabled by default]
+/usr/include/string.h:128:14: note: expected ‘char * __restrict__’ but argument is of type ‘int’
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project loadfile ****
+
+make clean 
+rm -rf  ./http.o ./socket.o  ./http.d ./socket.d  loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building file: ../socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"socket.d" -MT"socket.d" -o "socket.o" "../socket.c"
+../socket.c: In function ‘Socket_Connect’:
+../socket.c:34:5: warning: implicit declaration of function ‘inet_addr’ [-Wimplicit-function-declaration]
+../socket.c: In function ‘Close’:
+../socket.c:83:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+Finished building: ../socket.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building file: ../socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"socket.d" -MT"socket.d" -o "socket.o" "../socket.c"
+../socket.c: In function ‘Socket_Connect’:
+../socket.c:34:5: warning: implicit declaration of function ‘inet_addr’ [-Wimplicit-function-declaration]
+../socket.c: In function ‘Close’:
+../socket.c:83:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+Finished building: ../socket.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../http.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"http.d" -MT"http.d" -o "http.o" "../http.c"
+../http.c: In function ‘Get_Breakpoint’:
+../http.c:79:5: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../http.c:86:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘Save_Breakpoint’:
+../http.c:133:5: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetRecvLength’:
+../http.c:199:5: warning: implicit declaration of function ‘HTTP_GetContentLength’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetFile’:
+../http.c:568:13: warning: implicit declaration of function ‘Socket_Connect’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_DownloadFile’:
+../http.c:654:5: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../http.c:658:5: warning: implicit declaration of function ‘Close’ [-Wimplicit-function-declaration]
+../http.c: In function ‘HTTP_GetResponseCode’:
+../http.c:182:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../http.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"socket.d" -MT"socket.d" -o "socket.o" "../socket.c"
+../socket.c: In function ‘Socket_Connect’:
+../socket.c:32:5: warning: implicit declaration of function ‘gethostbyname’ [-Wimplicit-function-declaration]
+../socket.c:32:10: warning: assignment makes pointer from integer without a cast [enabled by default]
+../socket.c:34:51: error: dereferencing pointer to incomplete type
+../socket.c: In function ‘Close’:
+../socket.c:83:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+make: *** [socket.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+Building file: ../socket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"socket.d" -MT"socket.d" -o "socket.o" "../socket.c"
+Finished building: ../socket.c
+ 
+Building target: loadfile
+Invoking: GCC C Linker
+gcc  -o "loadfile"  ./http.o ./socket.o   
+Finished building target: loadfile
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project loadfile ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

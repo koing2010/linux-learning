@@ -2,7 +2,7 @@
  * socket.h
  *
  *  Created on: Feb 24, 2017
- *      Author: root
+ *      Author: Mrkon
  */
 
 #ifndef SOCKET_H_

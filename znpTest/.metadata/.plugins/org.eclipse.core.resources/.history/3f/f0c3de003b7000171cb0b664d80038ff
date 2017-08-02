@@ -1,0 +1,69 @@
+/*
+ * znp_struct.c
+ *
+ *  Created on: Jul 23, 2017
+ *      Author: kon
+ */
+
+#include "stdio.h"
+#include "stdlib.h"
+#include "ktype.h"
+#include "znp_struct.h"
+#include "string.h"
+
+/*
+ * XOR of all the bytes
+ */
+u8 calcFCS(u8 *pMsg, MsgLen)
+ {
+ u8 result = 0;
+ while (MsgLen--)
+  {
+  result ^= *pMsg++;
+  }
+ return result;
+ }
+
+/*
+ * print the hex message
+ */
+void print_msg(u8* msg, lenth)
+ {
+ printf("serial msg: ");
+ do
+  {
+  printf("%2x ", *msg++);
+  }
+ while (--lenth);
+ printf("\n");
+ }
+/*
+ * pack the msg and write into serial filed
+ */
+znp_dev_pack(u8 *msg, msg_len, int fd)
+ {
+ u8 *pMsg = malloc(msg_len + 2); // start code 0xFE end FCS
+ u8 *backpMsg = pMsg;
+
+ //add header and fcs
+ *pMsg++ = 0xFE;
+ memcoy(pMsg, msg, msg_len);
+ pMsg += msg_len;
+ *pMsg = calcFCS(msg, msg_len);
+
+ print_msg(backpMsg, msg_len + 2);
+ if (backpMsg != NULL)
+  {
+  if (write(fd, backpMsg, msg_len + 2) == SUCCESS)
+
+   {
+   printf("znp_dev_pack write SUCCESS!\n");
+   }
+  else
+   {
+   printf("znp_dev_pack write FAILURE!\n");
+   }
+  free(backpMsg);
+  }
+ }
+

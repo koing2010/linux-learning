@@ -1,0 +1,38 @@
+/*
+ * znp_struct.c
+ *
+ *  Created on: Jul 23, 2017
+ *      Author: kon
+ */
+
+#include "stdio.h"
+#include "stdlib.h"
+#include "ktype.h"
+#include "znp_struct.h"
+
+/*
+ * XOR of all the bytes
+ */
+u8 calcFCS(u8 *pMsg, MsgLen)
+ {
+ u8 result = 0;
+ while(MsgLen --)
+  {
+  result ^= *pMsg++;
+  }
+ return result;
+ }
+
+/*
+ * pack the msg and write into serial filed
+ */
+znp_dev_pack(u8 *msg, msg_len, int fd)
+ {
+  u8 *tMsg = malloc(msg_len+2);// start code 0xFE end FCS
+  if(tMsg != NULL)
+   {
+    if( write(fd, tMsg, msg_len+2) == SUCCESS )
+    free(tMsg);
+   }
+ }
+

@@ -1,0 +1,15 @@
+/*****************************************************************************
+ znptest.c
+ description: zigbee processor
+ open or close a usart port as a file.
+ edited by Mr.kon  @2017-7-24
+ *****************************************************************************/
+#include "stdio.h"
+#include "stdlib.h"
+
+int main(void)
+ {
+
+ printf("znptest rpocess!\n");
+ return 0;
+ }

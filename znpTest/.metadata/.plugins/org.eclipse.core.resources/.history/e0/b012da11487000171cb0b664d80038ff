@@ -1,0 +1,14 @@
+/*
+ * zdo_process.c
+ *
+ *  Created on: 2017-
+ *      Author: kon
+ */
+
+
+void AF_RegisterAppEndpointDescription(EndPoint, AppProfId, AppdeviceId, AppdevVer,\
+  LatencyReq, AppNumInclusters,\
+									  AppInclusterList, AppNumberOutClusters, AppoutClusterList)
+ {
+
+ }

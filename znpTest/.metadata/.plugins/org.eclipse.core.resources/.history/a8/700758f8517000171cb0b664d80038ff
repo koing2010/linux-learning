@@ -1,0 +1,62 @@
+/*
+ * zdo_process.c
+ *
+ *  Created on: 2017-
+ *      Author: kon
+ */
+#include "stdio.h"
+#include "ktype.h"
+#include "znp_struct.h"
+#include "zdo_proess.h"
+
+
+/*
+ * register
+ */
+void AF_RegisterAppEndpointDescription(SimpleDescriptionFormat_t *pSimpleDesFormat, int serial)
+ {
+ u8* RegDes = NULL;
+ u8* BackRegDes = NULL;
+ u8 i = 0;
+ u16 *pList = NULL;
+ u8  number = 9 + pSimpleDesFormat->AppNumInClusters + pSimpleDesFormat->AppNumOutClusters;
+  RegDes = malloc(number);
+  if(RegDes != NULL)
+   BackRegDes = RegDes;//save the start situation
+
+  *RegDes++ = pSimpleDesFormat->EndPoint;
+  *RegDes++ = (u8)pSimpleDesFormat->AppProfId;
+  *RegDes++ = (u8)(pSimpleDesFormat->AppProfId >> 8);
+  *RegDes++ = (u8)pSimpleDesFormat->AppDeviceId;
+  *RegDes++ = (u8)(pSimpleDesFormat->AppDeviceId >> 8);
+  *RegDes++ = (u8)pSimpleDesFormat->AppDevVer;
+  *RegDes++ = (u8)pSimpleDesFormat->LatencyReq;
+  *RegDes++ = (u8)pSimpleDesFormat->AppNumInClusters;
+  pList = pSimpleDesFormat->pAppInClusterList;
+  for(i = 0; i < pSimpleDesFormat->AppNumInClusters; i ++)
+   {
+   *RegDes++ = (u8)*pList;
+   *RegDes++ = (u8)(*pList >> 8);
+    pList ++;
+   }
+  *RegDes++ = pSimpleDesFormat->AppNumOutClusters;
+  pList = pSimpleDesFormat->pAppOutClusterList;
+  for(i = 0; i < pSimpleDesFormat->AppNumOutClusters; i ++)
+   {
+   *RegDes++ = (u8)*pList;
+   *RegDes++ = (u8)(*pList >> 8);
+    pList ++;
+   }
+
+  print_msg(BackRegDes , number);
+  if(znp_dev_pack(BackRegDes, number,serial) == SUCCESS)
+   {
+   printf("Has Send Register Msg\n");
+   }
+  else
+   {
+   printf("Register Erro\n");
+   }
+  free(BackRegDes);
+
+ }

@@ -1,0 +1,44 @@
+/*
+ * zdo_process.c
+ *
+ *  Created on: 2017-
+ *      Author: kon
+ */
+#include "ktype.h"
+#include "zdo_proess.h"
+
+/*
+ * register
+ */
+void AF_RegisterAppEndpointDescription(SimpleDescriptionFormat_t *pSimpleDesFormat)
+ {
+ u8* RegDes = NULL;
+ u8 i = 0;
+ u16 *pList = NULL;
+  RegDes = malloc(9 + pSimpleDesFormat->AppNumInClusters + pSimpleDesFormat->AppNumOutClusters);
+  *RegDes++ = pSimpleDesFormat->EndPoint;
+  *RegDes++ = (u8)pSimpleDesFormat->AppProfId;
+  *RegDes++ = (u8)(pSimpleDesFormat->AppProfId >> 8);
+  *RegDes++ = (u8)pSimpleDesFormat->AppDeviceId;
+  *RegDes++ = (u8)(pSimpleDesFormat->AppDeviceId >> 8);
+  *RegDes++ = (u8)pSimpleDesFormat->AppDevVer;
+  *RegDes++ = (u8)pSimpleDesFormat->LatencyReq;
+  *RegDes++ = (u8)pSimpleDesFormat->AppNumInClusters;
+  pList = pSimpleDesFormat->pAppInClusterList;
+  for(i = 0; i < pSimpleDesFormat->AppNumInClusters; i ++)
+   {
+   *RegDes++ = (u8)*pList;
+   *RegDes++ = (u8)(*pList >> 8);
+    pList ++;
+   }
+
+  pList = pSimpleDesFormat->pAppOutClusterList;
+  for(i = 0; i < pSimpleDesFormat->AppNumOutClusters; i ++)
+   {
+   *RegDes++ = (u8)*pList;
+   *RegDes++ = (u8)(*pList >> 8);
+    pList ++;
+   }
+
+
+ }

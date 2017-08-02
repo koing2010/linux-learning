@@ -1,0 +1,9 @@
+#include "stdio.h"
+#include "stdlib.h"
+
+unsigned int
+main(void)
+{
+  printf("test zigbee and processor\n");
+  return 0;
+}

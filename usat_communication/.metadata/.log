@@ -3984,3 +3984,111 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.debug.core 4 125 2017-03-04 06:58:21.023
 !MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 02:05:08.935
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 02:06:46.073
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 02:09:25.939
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 02:15:05.807
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 02:18:43.004
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 02:25:52.655
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 02:26:18.039
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 05:23:28.171
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 05:28:10.041
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2017-03-05 05:41:06.550
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: /home/kon/linux-learning/http/Debug/loadfile not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchLocalDebugSession(LocalCDILaunchDelegate.java:132)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launchDebugger(LocalCDILaunchDelegate.java:112)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:73)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 05:41:48.074
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 06:23:22.656
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 06:25:58.329
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 06:45:10.648
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 06:45:20.947
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 06:45:35.602
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-05 07:00:06.390
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-10 07:18:12.002
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-10 07:20:28.838
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-10 07:25:00.190
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-10 07:33:30.330
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-10 07:42:17.685
+!MESSAGE Inferior terminated
+!SESSION 2017-03-12 07:42:21.643 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_40
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-03-12 07:42:26.608
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-12 07:53:54.100
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-12 08:02:03.849
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-12 08:08:19.414
+!MESSAGE Inferior terminated
+
+!ENTRY org.eclipse.debug.core 4 125 2017-03-12 08:26:23.116
+!MESSAGE Inferior terminated
+!SESSION 2017-07-19 18:59:26.045 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_40
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-19 18:59:32.837
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

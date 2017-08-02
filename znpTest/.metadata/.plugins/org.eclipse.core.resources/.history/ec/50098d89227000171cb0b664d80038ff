@@ -1,0 +1,71 @@
+/*
+ * znptest.c
+ *
+ *  Created on: Jul 23, 2017
+ *      Author: kon
+ */
+
+
+#include "stdio.h"
+#include "stdlib.h"
+#include <fcntl.h>
+#include <termios.h>
+
+#define znp_dev_path "/dev/ttyACM0"
+
+static int openSerial(char *cSerialName);
+
+int main(void)
+ {
+  int s_fd = openSerial(znp_dev_path);
+
+  printf("znptest processor start !\n");
+  return 0;
+ }
+
+/*****************************************************************************
+  open sriral port
+  return: the file of port
+ *****************************************************************************/
+static int openSerial(char *cSerialName)
+{
+    int iFd;
+
+    struct termios opt;
+
+    iFd = open(cSerialName, O_RDWR | O_NOCTTY);
+    if(iFd < 0) {
+        perror(cSerialName);
+        return -1;
+    }
+
+    tcgetattr(iFd, &opt);
+    //cfsetispeed(&opt, B57600);
+    //cfsetospeed(&opt, B57600);
+
+     cfsetispeed(&opt, B115200);
+     cfsetospeed(&opt, B115200);
+
+
+    /*
+     * raw mode
+     */
+    opt.c_lflag   &=   ~(ECHO   |   ICANON   |   IEXTEN   |   ISIG);
+    opt.c_iflag   &=   ~(BRKINT   |   ICRNL   |   INPCK   |   ISTRIP   |   IXON);
+    opt.c_oflag   &=   ~(OPOST);
+    opt.c_cflag   &=   ~(CSIZE   |   PARENB);
+    opt.c_cflag   |=   CS8;
+
+    /*
+     * 'DATA_LEN' bytes can be read by serial
+     */
+    opt.c_cc[VMIN]   =   1;//
+    opt.c_cc[VTIME]  =   1;//wait time for reading once
+
+    if (tcsetattr(iFd,   TCSANOW,   &opt)<0) {
+        return   -1;
+    }
+
+
+    return iFd;
+}

@@ -1,0 +1,31 @@
+/*
+ * zdo_proess.h
+ *
+ *  Created on: Jul 24, 2017
+ *      Author: kon
+ */
+
+#ifndef ZDO_PROESS_H_
+#define ZDO_PROESS_H_
+#include "ktype.h"
+
+
+typedef u16  cId_t;
+// Simple Description Format Structure
+typedef struct
+{
+  u8          EndPoint;
+  u16         AppProfId;
+  u16         AppDeviceId;
+  u8          AppDevVer;
+  u8          LatencyReq;
+  u8          AppNumInClusters;
+  cId_t         *pAppInClusterList;
+  u8          AppNumOutClusters;
+  cId_t         *pAppOutClusterList;
+} SimpleDescriptionFormat_t;
+
+
+
+void AF_RegisterAppEndpointDescription(SimpleDescriptionFormat_t *pSimpleDesFormat);
+#endif /* ZDO_PROESS_H_ */

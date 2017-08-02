@@ -1,0 +1,15 @@
+/*
+ * zdo_process.c
+ *
+ *  Created on: 2017-
+ *      Author: kon
+ */
+#include "ktype.h"
+
+/*
+ * register
+ */
+void AF_RegisterAppEndpointDescription(SimpleDescriptionFormat_t *pSimpleDesFormat)
+ {
+  pSimpleDesFormat-
+ }

@@ -1,0 +1,69 @@
+/*****************************************************************************
+ znptest.c
+ description: zigbee processor
+ open or close a usart port as a file.
+ edited by Mr.kon  @2017-7-24
+ *****************************************************************************/
+#include "stdio.h"
+#include "stdlib.h"
+#include <termios.h>
+#include <fcntl.h>
+
+static int openSerial(char *cSerialName);
+
+
+#define dev_path = "/dev/ttyACM0)"
+int main(void)
+ {
+  int s_fd = 0;
+  s_fd = openSerial( dev_path);
+
+ printf("znptest rpocess!\n");
+ return 0;
+ }
+/*****************************************************************************
+ open sriral port
+ return: the file of port
+ *****************************************************************************/
+static int openSerial(char *cSerialName)
+ {
+ int serial_fd;
+
+ struct termios opt;
+
+ serial_fd = open(cSerialName, O_RDWR | O_NOCTTY);
+ if (serial_fd < 0)
+  {
+  perror(cSerialName);
+  return -1;
+  }
+
+ tcgetattr(serial_fd, &opt);
+ //cfsetispeed(&opt, B57600);
+ //cfsetospeed(&opt, B57600);
+
+ cfsetispeed(&opt, B115200);
+ cfsetospeed(&opt, B115200);
+
+ /*
+  * raw mode
+  */
+ opt.c_lflag &= ~(ECHO | ICANON | IEXTEN | ISIG);
+ opt.c_iflag &= ~(BRKINT | ICRNL | INPCK | ISTRIP | IXON);
+ opt.c_oflag &= ~(OPOST);
+ opt.c_cflag &= ~(CSIZE | PARENB);
+ opt.c_cflag |= CS8;
+
+ /*
+  * 'DATA_LEN' bytes can be read by serial
+  */
+ opt.c_cc[VMIN] = 1; //
+ opt.c_cc[VTIME] = 1; //wait time for reading once
+
+ if (tcsetattr(serial_fd, TCSANOW, &opt) < 0)
+  {
+  return -1;
+  }
+
+ return serial_fd;
+ }

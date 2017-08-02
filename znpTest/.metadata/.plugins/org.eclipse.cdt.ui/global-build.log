@@ -1,0 +1,2753 @@
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:19:21: error: expected expression before ‘=’ token
+../znptest.c:18:6: warning: variable ‘s_fd’ set but not used [-Wunused-but-set-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:18:7: warning: variable ‘s_fd’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./znptest.o  ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:18:7: warning: variable ‘s_fd’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../usart.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"usart.d" -MT"usart.d" -o "usart.o" "../usart.c"
+../usart.c: In function ‘ListeningUsart’:
+../usart.c:85:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../usart.c:85:5: note: use option -std=c99 or -std=gnu99 to compile your code
+../usart.c: In function ‘main’:
+../usart.c:205:57: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../usart.c: At top level:
+../usart.c:35:12: warning: ‘seriral_test’ defined but not used [-Wunused-function]
+make: *** [usart.o] Error 1
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./usart.o  ./usart.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:14:3: warning: implicit declaration of function ‘print’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:14: undefined reference to `print'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:14: undefined reference to `print'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:20:7: warning: unused variable ‘s_fd’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+In file included from ../znp_struct.c:11:0:
+../znp_struct.h:11:22: error: unknown type name ‘MsgLen’
+../znp_struct.h:12:23: error: unknown type name ‘msg_len’
+../znp_struct.c:17:22: error: unknown type name ‘MsgLen’
+../znp_struct.c:30:25: error: unknown type name ‘lenth’
+../znp_struct.c:43:23: error: unknown type name ‘msg_len’
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+In file included from ../znp_struct.c:11:0:
+../znp_struct.h:11:22: error: unknown type name ‘MsgLen’
+../znp_struct.h:12:23: error: unknown type name ‘msg_len’
+../znp_struct.c:43:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:50:2: warning: implicit declaration of function ‘memcoy’ [-Wimplicit-function-declaration]
+../znp_struct.c:57:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c:68:2: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+In file included from ../znp_struct.c:11:0:
+../znp_struct.h:13:1: warning: data definition has no type or storage class [enabled by default]
+../znp_struct.h:13:1: warning: type defaults to ‘int’ in declaration of ‘znp_dev_pack’ [-Wimplicit-int]
+../znp_struct.c:43:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:50:2: warning: implicit declaration of function ‘memcoy’ [-Wimplicit-function-declaration]
+../znp_struct.c:57:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c:68:2: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:27:5: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znp_struct.o ./znptest.o   
+./znp_struct.o: In function `znp_dev_pack':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znp_struct.c:50: undefined reference to `memcoy'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c:43:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+../znp_struct.c:43:1: warning: conflicting types for ‘znp_dev_pack’ [enabled by default]
+../znp_struct.h:13:6: note: previous declaration of ‘znp_dev_pack’ was here
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:50:2: warning: implicit declaration of function ‘memcoy’ [-Wimplicit-function-declaration]
+../znp_struct.c:57:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znp_struct.o ./znptest.o   
+./znp_struct.o: In function `znp_dev_pack':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znp_struct.c:50: undefined reference to `memcoy'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:57:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znp_struct.o ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:30:2: warning: implicit declaration of function ‘pthread_create’ [-Wimplicit-function-declaration]
+../znptest.c:30:41: error: ‘ListeningUsart’ undeclared (first use in this function)
+../znptest.c:30:41: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:30:64: error: ‘file_t’ undeclared (first use in this function)
+../znptest.c:36:5: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:41:3: warning: implicit declaration of function ‘pthread_join’ [-Wimplicit-function-declaration]
+../znptest.c:24:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:116:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:116:32: error: ‘rxbuf’ undeclared (first use in this function)
+../znptest.c:120:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../znptest.c:120:5: note: use option -std=c99 or -std=gnu99 to compile your code
+../znptest.c:133:2: warning: implicit declaration of function ‘pthread_exit’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:32:3: warning: implicit declaration of function ‘pthread_create’ [-Wimplicit-function-declaration]
+../znptest.c:32:42: error: ‘ListeningUsart’ undeclared (first use in this function)
+../znptest.c:32:42: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:32:66: error: ‘file_t’ undeclared (first use in this function)
+../znptest.c:38:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:43:2: warning: implicit declaration of function ‘pthread_join’ [-Wimplicit-function-declaration]
+../znptest.c:26:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:119:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:137:2: warning: implicit declaration of function ‘pthread_exit’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:33:42: error: ‘ListeningUsart’ undeclared (first use in this function)
+../znptest.c:33:42: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:33:66: error: ‘file_t’ undeclared (first use in this function)
+../znptest.c:39:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:44:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:27:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:120:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:36:66: error: ‘file_t’ undeclared (first use in this function)
+../znptest.c:36:66: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:42:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:47:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:30:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:123:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:66: error: ‘file_t’ undeclared (first use in this function)
+../znptest.c:37:66: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:66: error: ‘file_t’ undeclared (first use in this function)
+../znptest.c:37:66: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:36:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:42:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:47:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:30:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:123:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znp_struct.o ./znptest.o   
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:36: undefined reference to `pthread_create'
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:47: undefined reference to `pthread_join'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+Finished building: ../znptest.c
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znp_struct.o ./znptest.o   
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:37: undefined reference to `pthread_create'
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:48: undefined reference to `pthread_join'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:36:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:42:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:47:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:30:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:123:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znp_struct.o ./znptest.o   
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:36: undefined reference to `pthread_create'
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:47: undefined reference to `pthread_join'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+../znptest.c: In function ‘ListeningUsart’:
+ 
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znp_struct.o ./znptest.o   
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:37: undefined reference to `pthread_create'
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:48: undefined reference to `pthread_join'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:57:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘print_msg’:
+../znp_struct.c:35:3: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+../znp_struct.c:38:4: error: expected ‘;’ before ‘}’ token
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘print_msg’:
+../znp_struct.c:35:3: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+../znp_struct.c:38:4: error: expected ‘;’ before ‘}’ token
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘print_msg’:
+../znp_struct.c:35:3: warning: suggest parentheses around comparison in operand of ‘&’ [-Wparentheses]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘print_msg’:
+../znp_struct.c:35:17: error: expected expression before ‘==’ token
+../znp_struct.c:35:21: error: expected statement before ‘)’ token
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘print_msg’:
+../znp_struct.c:35:17: error: expected expression before ‘==’ token
+../znp_struct.c:35:21: error: expected statement before ‘)’ token
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:129:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:128:16: warning: unused variable ‘i’ [-Wunused-variable]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./znp_struct.o ./znptest.o  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:129:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:128:16: warning: unused variable ‘i’ [-Wunused-variable]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./znp_struct.o ./znptest.o  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:129:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:128:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:65:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:65:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./znp_struct.o ./znptest.o  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:129:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:128:16: warning: unused variable ‘i’ [-Wunused-variable]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./znp_struct.o ./znptest.o  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:129:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:128:16: warning: unused variable ‘i’ [-Wunused-variable]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./znp_struct.o ./znptest.o  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:37:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:43:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:48:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:31:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:124:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:129:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:128:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./znp_struct.o ./znptest.o  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c:15:6: error: conflicting types for ‘AF_RegisterAppEndpointDescription’
+../zdo_proess.h:36:6: note: previous declaration of ‘AF_RegisterAppEndpointDescription’ was here
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:51:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c:15:6: error: conflicting types for ‘AF_RegisterAppEndpointDescription’
+../zdo_proess.h:36:6: note: previous declaration of ‘AF_RegisterAppEndpointDescription’ was here
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:51:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c:15:6: error: conflicting types for ‘AF_RegisterAppEndpointDescription’
+../zdo_proess.h:36:6: note: previous declaration of ‘AF_RegisterAppEndpointDescription’ was here
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:51:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+In file included from ../zdo_process.c:10:0:
+../zdo_proess.h:12:40: error: unknown type name ‘SimpleDescriptionFormat_t’
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:51:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:51:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:61:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c:30:16: error: expected ‘}’ before ‘;’ token
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:62:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:45:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:138:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:143:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:142:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c:31:31: error: expected ‘}’ before ‘;’ token
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:60:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:43:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:136:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:141:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:140:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:60:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:43:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:136:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:141:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:140:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:58:38: error: expected expression before ‘SimpleDescriptionFormat_t’
+../znptest.c:58:38: error: too few arguments to function ‘AF_RegisterAppEndpointDescription’
+../zdo_proess.h:35:6: note: declared here
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:51:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:55:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:51:3: error: void value not ignored as it ought to be
+../zdo_process.c:59:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:59:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:60:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:60:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:62:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:61:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:61:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:61:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:61:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:62:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+Finished building: ../znptest.c
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+ 
+Building target: znptest
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:61:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:61:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:62:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c:63:3: error: expected ‘,’ or ‘;’ before ‘if’
+../znp_struct.c:68:3: error: expected ‘}’ before ‘else’
+../znp_struct.c:62:7: warning: unused variable ‘re’ [-Wunused-variable]
+../znp_struct.c:51:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znp_struct.c: At top level:
+../znp_struct.c:74:2: error: expected identifier or ‘(’ before ‘return’
+../znp_struct.c:75:2: error: expected identifier or ‘(’ before ‘}’ token
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:73:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:62:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c:63:3: error: expected ‘,’ or ‘;’ before ‘if’
+../znp_struct.c:68:3: error: expected ‘}’ before ‘else’
+../znp_struct.c:62:7: warning: unused variable ‘re’ [-Wunused-variable]
+../znp_struct.c:51:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znp_struct.c: At top level:
+../znp_struct.c:74:2: error: expected identifier or ‘(’ before ‘return’
+../znp_struct.c:75:2: error: expected identifier or ‘(’ before ‘}’ token
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:73:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:62:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:63:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:139:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:144:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:143:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:75:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:76:2: error: expected ‘;’ before ‘if’
+../zdo_process.c:74:8: warning: unused variable ‘BackMsg’ [-Wunused-variable]
+../zdo_process.c:73:8: warning: variable ‘msg’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:75:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:76:2: error: expected ‘;’ before ‘if’
+../zdo_process.c:74:8: warning: unused variable ‘BackMsg’ [-Wunused-variable]
+../zdo_process.c:73:8: warning: variable ‘msg’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c:80:2: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:76:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:80:4: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:80:4: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:75:7: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c:74:8: warning: unused variable ‘BackMsg’ [-Wunused-variable]
+../zdo_process.c:84:2: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../zdo_process.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:76:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:76:39: error: ‘ClsusterID’ undeclared (first use in this function)
+../zdo_process.c:76:39: note: each undeclared identifier is reported only once for each function it appears in
+../zdo_process.c:80:4: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:80:4: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:85:23: error: ‘BackRegDes’ undeclared (first use in this function)
+../zdo_process.c:85:35: error: ‘number’ undeclared (first use in this function)
+../zdo_process.c:74:8: warning: unused variable ‘BackMsg’ [-Wunused-variable]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:76:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:80:4: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:80:4: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:85:23: error: ‘BackRegDes’ undeclared (first use in this function)
+../zdo_process.c:85:23: note: each undeclared identifier is reported only once for each function it appears in
+../zdo_process.c:85:35: error: ‘number’ undeclared (first use in this function)
+../zdo_process.c:74:8: warning: unused variable ‘BackMsg’ [-Wunused-variable]
+make: *** [zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:77:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+../zdo_process.c:81:4: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:81:4: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘ZDO_RegisterForZDOMsgCB’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+ 
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:145:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:77:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:81:4: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:81:4: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+Finished building: ../znptest.c
+ 
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:145:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:16: warning: unused variable ‘i’ [-Wunused-variable]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:145:16: warning: unused variable ‘i’ [-Wunused-variable]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:145:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:23:3: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:23:12: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:62:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:62:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:77:10: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:81:4: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Finished building: ../zdo_process.c
+ 
+Building target: znptest
+../zdo_process.c:81:4: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:95:7: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:66:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:142:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:147:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+ 
+../znptest.c:146:16: warning: unused variable ‘i’ [-Wunused-variable]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:50:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:56:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:66:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:142:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:147:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:146:16: warning: unused variable ‘i’ [-Wunused-variable]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:8: warning: dereferencing ‘void *’ pointer [enabled by default]
+../znptest.c:65:2: error: void value not ignored as it ought to be
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:8: warning: dereferencing ‘void *’ pointer [enabled by default]
+../znptest.c:65:2: error: void value not ignored as it ought to be
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:8: warning: dereferencing ‘void *’ pointer [enabled by default]
+../znptest.c:65:2: error: void value not ignored as it ought to be
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:8: warning: dereferencing ‘void *’ pointer [enabled by default]
+../znptest.c:65:2: error: void value not ignored as it ought to be
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:8: warning: dereferencing ‘void *’ pointer [enabled by default]
+../znptest.c:65:2: error: void value not ignored as it ought to be
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:8: warning: dereferencing ‘void *’ pointer [enabled by default]
+../znptest.c:65:2: error: void value not ignored as it ought to be
+../znptest.c:65:2: warning: passing argument 1 of ‘pthread_join’ makes integer from pointer without a cast [enabled by default]
+/usr/include/pthread.h:242:12: note: expected ‘pthread_t’ but argument is of type ‘pthread_t *’
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:57:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:58:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:67:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:44:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:143:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:148:2: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:147:16: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

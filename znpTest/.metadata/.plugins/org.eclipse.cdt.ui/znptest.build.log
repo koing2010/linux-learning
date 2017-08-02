@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:18:7: warning: variable ‘s_fd’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc  -o "znptest"  ./znptest.o   
+Finished building target: znptest
+ 
+
+**** Build Finished ****

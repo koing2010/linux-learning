@@ -552,6 +552,9 @@ int HTTP_GetFile(int sockfd, char *path, int filelength, int download_size,
 			i--;
 			continue;
 		}
+#ifdef DEBUG_HTTP
+		printf("%s",g_buf_recv);
+#endif
 		/*提取协议体数据,保存在filebuf中*/
 		p = strstr(g_buf_recv, "\r\n\r\n");
 		if (p == NULL) //jia ru duan dian baocun
@@ -560,8 +563,8 @@ int HTTP_GetFile(int sockfd, char *path, int filelength, int download_size,
 			break;
 		}
 		else
-		{
-			memcpy(filebuf + j * MAX_RECV_SIZE, p + 4, MAX_RECV_SIZE);
+		{   /* if filesize < MAX_RECV_SIZE, may write file buf over size */
+			memcpy(filebuf + j * MAX_RECV_SIZE, p + 4, strlen(p + 4));//MAX_RECV_SIZE last version
 			j++;
 
 		}
@@ -675,13 +678,24 @@ int HTTP_DownloadFile(char *url, char *save_path)
 	}
 
 }
-
+char loadxml[] = "http://upgrade-test-5itianyuan.oss-cn-beijing.aliyuncs.com/hardware/sc/rhxt/sc_update.xml";
 char loadurl[] =
 		"http://upgrade-test-5itianyuan.oss-cn-beijing.aliyuncs.com/hardware/sc/rhxt/HDZT00A1-20170208-1.bin";
 char savepath[] = "/home/kon/Downloads/";
+
 int main()
 {
 	int LoadState = 0;
+	LoadState = HTTP_DownloadFile(loadxml, savepath);
+	if (LoadState == 0)
+	{
+		printf("file download success\n");
+	}
+	else
+	{
+		printf("file download filed\n");
+	}
+
 	LoadState = HTTP_DownloadFile(loadurl, savepath);
 	if (LoadState == 0)
 	{

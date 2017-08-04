@@ -1,2 +1,5 @@
 t_communication/.metadata/*
 http/.metadata/*
+znpTest/znptest/Debug/*.d
+znpTest/znptest/Debug/*.o
+znpTest/.metadata/*

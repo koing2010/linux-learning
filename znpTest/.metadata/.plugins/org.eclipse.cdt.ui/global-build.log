@@ -2751,3 +2751,1229 @@ make all
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c:17:2: error: ‘SYS_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:18:2: error: ‘MAC_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:19:2: error: ‘NWK_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:20:2: error: ‘AF_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:21:2: error: ‘ZDO_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:22:2: error: ‘SAPI_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:23:2: error: ‘UTIL_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:73:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: In function ‘SYS_CMDProccessing’:
+../znp_struct.c:107:1: error: parameter name omitted
+../znp_struct.c: In function ‘MAC_CMDProccessing’:
+../znp_struct.c:112:1: error: parameter name omitted
+../znp_struct.c: In function ‘NWK_CMDProccessing’:
+../znp_struct.c:117:1: error: parameter name omitted
+../znp_struct.c: In function ‘AF_CMDProccessing’:
+../znp_struct.c:122:1: error: parameter name omitted
+../znp_struct.c: In function ‘ZDO_CMDProccessing’:
+../znp_struct.c:127:1: error: parameter name omitted
+../znp_struct.c: In function ‘SAPI_CMDProccessing’:
+../znp_struct.c:132:1: error: parameter name omitted
+../znp_struct.c: In function ‘UTIL_CMDProccessing’:
+../znp_struct.c:137:1: error: parameter name omitted
+../znp_struct.c: In function ‘DEBUG_CMDProccessing’:
+../znp_struct.c:142:1: error: parameter name omitted
+../znp_struct.c: In function ‘APP_CMDProccessing’:
+../znp_struct.c:147:1: error: parameter name omitted
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c:17:2: error: ‘SYS_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:18:2: error: ‘MAC_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:19:2: error: ‘NWK_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:20:2: error: ‘AF_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:21:2: error: ‘ZDO_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:22:2: error: ‘SAPI_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:23:2: error: ‘UTIL_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:73:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: In function ‘AF_CMDProccessing’:
+../znp_struct.c:124:29: error: expected ‘)’ before ‘Msg’
+../znp_struct.c: In function ‘ZDO_CMDProccessing’:
+../znp_struct.c:129:30: error: expected ‘)’ before ‘Msg’
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c:17:2: error: ‘SYS_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:18:2: error: ‘MAC_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:19:2: error: ‘NWK_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:20:2: error: ‘AF_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:21:2: error: ‘ZDO_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:22:2: error: ‘SAPI_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c:23:2: error: ‘UTIL_CMDProccessing’ undeclared here (not in a function)
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:73:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+make: *** [znp_struct.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: At top level:
+../znptest.c:157:26: error: unknown type name ‘lenth’
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘MsgcalcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+../znptest.c:183:15: error: ‘pTM_CMD’ undeclared (first use in this function)
+../znptest.c:183:15: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:183:23: error: expected ‘)’ before ‘Msg’
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘MsgcalcFCS’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+./znptest.o: In function `ParseRxMsg':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:181: undefined reference to `MsgcalcFCS'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+../znptest.c:183:15: error: ‘pTM_CMD’ undeclared (first use in this function)
+../znptest.c:183:15: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:183:23: error: expected ‘)’ before ‘Msg’
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+../znptest.c:183:16: error: ‘TM_CMD’ undeclared (first use in this function)
+../znptest.c:183:16: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:183:23: error: expected ‘)’ before ‘Msg’
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+../znptest.c:183:16: error: ‘TM_CMD’ undeclared (first use in this function)
+../znptest.c:183:16: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+../znptest.c:183:15: error: ‘pTM_CMD’ undeclared (first use in this function)
+../znptest.c:183:15: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:48:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:54:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:64:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:41:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:140:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:145:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:144:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:181:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:183:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:148:3: warning: implicit declaration of function ‘ProcessRxMsg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:182:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:184:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+./znptest.o: In function `ListeningUsart':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:148: undefined reference to `ProcessRxMsg'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:182:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:184:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../zdo_process.c
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+ 
+Building file: ../znp_struct.c
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:182:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:184:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:183:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:185:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Finished building: ../zdo_process.c
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:183:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:185:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../zdo_process.c
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+Finished building: ../znp_struct.c
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+ 
+Building file: ../znptest.c
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:183:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:185:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Finished building: ../zdo_process.c
+ 
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:183:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:185:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:184:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:186:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+Building file: ../znp_struct.c
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:184:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:186:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Finished building: ../zdo_process.c
+ 
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:184:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:186:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Building file: ../znp_struct.c
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:184:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:186:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../zdo_process.c
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+ 
+Building file: ../znp_struct.c
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:184:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:186:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:24:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:24:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:64:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:64:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:82:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:86:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:86:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../zdo_process.c
+../zdo_process.c:100:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+ 
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:120:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:123:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c:142:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:118:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:152:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:157:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:49:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:55:3: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:65:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:42:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: In function ‘ListeningUsart’:
+../znptest.c:141:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:146:3: warning: implicit declaration of function ‘print_msg’ [-Wimplicit-function-declaration]
+../znptest.c:145:17: warning: unused variable ‘i’ [-Wunused-variable]
+../znptest.c: In function ‘ParseRxMsg’:
+../znptest.c:184:2: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:186:4: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****

@@ -103,3 +103,80 @@ u8 ZDO_RegisterForZDOMsgCB(u16 ClusterID, int serial)
  return reStatus;
 
  }
+/*
+This command is generated to inquire as to the Simple Descriptor of the destination device’s
+Endpoint.
+*/
+void ZDO_SimpleDescReq(u16 DstAddr, u16 NWKAddrOfInterest, u8 EndPoint, int serial)
+ {
+ u8 code[3] =
+  {
+  0x05, 0x25, 0x04
+  };
+ u8 *msg = NULL;
+ u8 *BackMsg = NULL;
+ u8 reStatus = FAILURE;
+ u8 number = sizeof(code) + sizeof(DstAddr) + sizeof(NWKAddrOfInterest) + sizeof(EndPoint);
+ msg = BackMsg = malloc(number);
+ if(msg != NULL)
+  {
+  memcpy(msg, code, sizeof(code));
+  msg += sizeof(code);
+  *msg++ = (u8) DstAddr;
+  *msg++ = (u8)(DstAddr >> 8);
+  *msg++ = (u8)NWKAddrOfInterest;
+  *msg++ = (u8)(NWKAddrOfInterest >> 8);
+  *msg++ = EndPoint;
+
+  if (znp_dev_pack(BackMsg, number, serial) == SUCCESS)
+   {
+   reStatus = SUCCESS;
+   printf("ZDO_SIMPLE_DESC_REQ Send SUCCESS\n");
+   }
+  else
+   {
+   printf("ZDO_SIMPLE_DESC_REQ Send FAILURE\n");
+   }
+
+  }
+ free(BackMsg);
+
+
+ }
+/*
+ * This command is generated to request a list of active endpoint from the destination device.
+ */
+void ZDO_ActiveEPReq(u16 DstAddr, u16 NWKAddrOfInterest, int serial)
+ {
+
+ u8 code[3] =
+  {
+  0x05, 0x25, 0x04
+  };
+ u8 *msg = NULL;
+ u8 *BackMsg = NULL;
+ u8 reStatus = FAILURE;
+ u8 number = sizeof(code) + sizeof(DstAddr) + sizeof(NWKAddrOfInterest);
+ msg = BackMsg = malloc(number);
+ if(msg != NULL)
+  {
+  memcpy(msg, code, sizeof(code));
+  msg += sizeof(code);
+  *msg++ = (u8) DstAddr;
+  *msg++ = (u8)(DstAddr >> 8);
+  *msg++ = (u8)NWKAddrOfInterest;
+  *msg++ = (u8)(NWKAddrOfInterest >> 8);
+
+  if (znp_dev_pack(BackMsg, number, serial) == SUCCESS)
+   {
+   reStatus = SUCCESS;
+   printf("ZDO_SIMPLE_DESC_REQ Send SUCCESS\n");
+   }
+  else
+   {
+   printf("ZDO_SIMPLE_DESC_REQ Send FAILURE\n");
+   }
+
+  }
+ free(BackMsg);
+ }

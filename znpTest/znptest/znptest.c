@@ -18,6 +18,7 @@
 #define znp_dev_path "/dev/ttyACM2"
 
 static int openSerial(char *cSerialName);
+void ParseRxMsg(u8 *Msg, u8 lenth);
 void *ListeningUsart(void *serial_fd);
 
 u8 zb_start_req[3] =
@@ -27,15 +28,12 @@ u8 zb_start_req[3] =
 
 SimpleDescriptionFormat_t SimpleDesc =
  {
- ZNP_END_POINT,
- ZCL_HA_PROFILE_ID,
- ZCL_HA_DEVICEID_ON_OFF_SWITCH,
- 0,//app version
- NO_LATENCY,
- 0,//in cluster list
- NULL,
- 0,
- NULL
+ ZNP_END_POINT, ZCL_HA_PROFILE_ID, ZCL_HA_DEVICEID_ON_OFF_SWITCH, 0, //app version
+   NO_LATENCY,
+   0, //in cluster list
+   NULL,
+   0,
+   NULL
  };
 
 int main(void)
@@ -56,7 +54,7 @@ int main(void)
   printf("device open success!\n");
   znp_dev_pack(zb_start_req, sizeof(zb_start_req), s_fd);
   sleep(1);
-  ZDO_RegisterForZDOMsgCB( Match_Desc_req, s_fd);
+  ZDO_RegisterForZDOMsgCB(Match_Desc_req, s_fd);
   sleep(1);
   AF_RegisterAppEndpointDescription(&SimpleDesc, s_fd);
   }
@@ -138,17 +136,17 @@ void *ListeningUsart(void *serial_fd)
   if (ret > 0)
    {
 
-   	//sleep(1);
+   //sleep(1);
    /* read MAX_READ_SIZE bytes data value from serial port */
    int read_len = read(ser_fd, rxbuf, sizeof(rxbuf));
 
-   if (read_len > 0)
-	{
-	unsigned char i = 0;
-	print_msg(rxbuf, read_len);
-	printf("\nread_len = %d\n", read_len);
-	//ProcessRxMsg(rxbuf, read_len);
-	}
+	if (read_len > 0)
+	 {
+	 unsigned char i = 0;
+	 print_msg(rxbuf, read_len);
+	 printf("\nread_len = %d\n", read_len);
+	 ParseRxMsg(rxbuf, read_len);
+	 }
    }
   //pthread_mutex_unlock(&uart_mutex);
 
@@ -156,3 +154,38 @@ void *ListeningUsart(void *serial_fd)
  pthread_exit(NULL);
 
  }
+
+void ParseRxMsg(u8 *Msg, u8 lenth)
+ {
+ u8 n = lenth;
+ u8 LEN = 0;
+ u8 FSC = 0;
+
+//looking for start code
+ while (*Msg != 0xFE && n >= 5)
+  {
+  Msg++;
+  n--;
+  }
+
+ if (n < 5)
+  {
+  printf("RxMsg Lenth ERRO!\n");
+  return;
+  }
+
+ Msg ++;
+ LEN = *Msg;//this format data len
+ if ((LEN + 3) > n)
+  {
+  printf("RxMsg format ERRO!\n");
+  }
+ FSC = Msg[LEN + 3];
+ if( FSC == calcFCS(Msg, LEN + 3) )
+  {
+   ParseCmd( Msg );// force turning format
+  }
+
+ }
+
+

@@ -95,7 +95,7 @@ u8 znp_dev_pack(u8 *msg, u8 msg_len, int fd)
 	return status;
   }
 
-void ParseCmd(pTM_CMD msg_pkt)
+u8 ParseCmd(pTM_CMD msg_pkt)
   {
 	mtProcessMsg_t ProcessFunc;
 	if ((msg_pkt->CMD0 & SUBSYSTEM_MASK) < SYS_MAX)
@@ -104,19 +104,26 @@ void ParseCmd(pTM_CMD msg_pkt)
 		if (ProcessFunc)
 		  {
 			/* execute processing function */
-			(*ProcessFunc)(msg_pkt);
+			return (*ProcessFunc)(msg_pkt);
 		  }
 		else
 		  {
 			printf("NO Process Function!\n");
 		  }
 	  }
-
+	return 0;
   }
 
 static u8 SYS_CMDProccessing(pTM_CMD Msg)
   {
 	printf("SYS_CMD_INCOMING\n");
+	switch (Msg->CMD1)
+	  {
+	case 0x01:
+	  return 0xFE;
+
+	  }
+
 	return 0;
   }
 static u8 MAC_CMDProccessing(pTM_CMD Msg)

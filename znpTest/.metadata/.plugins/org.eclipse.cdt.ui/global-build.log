@@ -4393,3 +4393,1110 @@ make all
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:61:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:61:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:79:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:83:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:83:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:97:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:117:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:120:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:139:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:115:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:156:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:159:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:177:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+../zdo_process.c:154:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:159:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:164:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:41:13: warning: initialization makes integer from pointer without a cast [enabled by default]
+../znptest.c:46:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../znptest.c:46:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../znptest.c:49:3: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+../znptest.c:49:3: warning: incompatible implicit declaration of built-in function ‘memset’ [enabled by default]
+../znptest.c:50:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:52:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:20:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:61:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:81:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:97:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:38:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: At top level:
+../znptest.c:174:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:66:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:177:2: warning: implicit declaration of function ‘whlie’ [-Wimplicit-function-declaration]
+../znptest.c:177:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:178:4: error: expected ‘;’ before ‘{’ token
+../znptest.c:176:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znptest.c:257:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:41:13: warning: initialization makes integer from pointer without a cast [enabled by default]
+../znptest.c:46:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../znptest.c:46:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../znptest.c:49:3: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+../znptest.c:49:3: warning: incompatible implicit declaration of built-in function ‘memset’ [enabled by default]
+../znptest.c:50:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:52:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:20:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:61:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:81:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:97:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:38:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: At top level:
+../znptest.c:174:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:66:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:177:2: warning: implicit declaration of function ‘whlie’ [-Wimplicit-function-declaration]
+../znptest.c:177:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:178:4: error: expected ‘;’ before ‘{’ token
+../znptest.c:176:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znptest.c:257:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../znptest.c:46:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../znptest.c:49:3: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+../znptest.c:49:3: warning: incompatible implicit declaration of built-in function ‘memset’ [enabled by default]
+../znptest.c:50:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:52:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:20:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:61:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:81:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:97:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:38:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: At top level:
+../znptest.c:174:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:66:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:177:2: warning: implicit declaration of function ‘whlie’ [-Wimplicit-function-declaration]
+../znptest.c:177:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:178:4: error: expected ‘;’ before ‘{’ token
+../znptest.c:176:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znptest.c:257:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../znptest.c:46:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../znptest.c:49:3: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+../znptest.c:49:3: warning: incompatible implicit declaration of built-in function ‘memset’ [enabled by default]
+../znptest.c:50:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:52:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:20:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:61:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:81:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:97:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:38:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: At top level:
+../znptest.c:174:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:66:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:177:2: warning: implicit declaration of function ‘whlie’ [-Wimplicit-function-declaration]
+../znptest.c:177:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:178:4: error: expected ‘;’ before ‘{’ token
+../znptest.c:176:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znptest.c:257:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../znptest.c:46:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../znptest.c:49:3: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+../znptest.c:49:3: warning: incompatible implicit declaration of built-in function ‘memset’ [enabled by default]
+../znptest.c:50:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:52:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:20:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:61:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:81:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:97:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:38:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: At top level:
+../znptest.c:174:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:66:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:177:2: warning: implicit declaration of function ‘whlie’ [-Wimplicit-function-declaration]
+../znptest.c:177:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:178:4: error: expected ‘;’ before ‘{’ token
+../znptest.c:176:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znptest.c:257:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../znptest.c:46:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../znptest.c:49:3: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+../znptest.c:49:3: warning: incompatible implicit declaration of built-in function ‘memset’ [enabled by default]
+../znptest.c:50:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:52:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:20:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:61:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:81:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:97:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:38:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: At top level:
+../znptest.c:174:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:66:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:177:2: warning: implicit declaration of function ‘whlie’ [-Wimplicit-function-declaration]
+../znptest.c:177:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:178:4: error: expected ‘;’ before ‘{’ token
+../znptest.c:176:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znptest.c:257:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../znptest.c:46:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../znptest.c:49:3: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+../znptest.c:49:3: warning: incompatible implicit declaration of built-in function ‘memset’ [enabled by default]
+../znptest.c:50:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:52:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:20:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:61:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:81:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:97:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:38:6: warning: variable ‘status’ set but not used [-Wunused-but-set-variable]
+../znptest.c: At top level:
+../znptest.c:174:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:66:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:177:2: warning: implicit declaration of function ‘whlie’ [-Wimplicit-function-declaration]
+../znptest.c:177:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:178:4: error: expected ‘;’ before ‘{’ token
+../znptest.c:176:5: warning: unused variable ‘status’ [-Wunused-variable]
+../znptest.c:257:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:62:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:67:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:82:3: error: ‘status’ undeclared (first use in this function)
+../znptest.c:82:3: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:82:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:98:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: At top level:
+../znptest.c:175:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:67:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:178:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:240:5: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:242:6: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:51:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:53:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:62:4: warning: implicit declaration of function ‘znp_dev_pack’ [-Wimplicit-function-declaration]
+../znptest.c:66:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:67:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:82:3: error: ‘status’ undeclared (first use in this function)
+../znptest.c:82:3: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:82:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:98:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: At top level:
+../znptest.c:175:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:67:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:178:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:240:5: warning: implicit declaration of function ‘calcFCS’ [-Wimplicit-function-declaration]
+../znptest.c:242:6: warning: implicit declaration of function ‘ParseCmd’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:52:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:54:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:67:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:68:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:83:3: error: ‘status’ undeclared (first use in this function)
+../znptest.c:83:3: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:83:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:99:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: At top level:
+../znptest.c:176:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:68:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:179:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:243:6: warning: passing argument 1 of ‘ParseCmd’ from incompatible pointer type [enabled by default]
+../znp_struct.h:28:4: note: expected ‘pTM_CMD’ but argument is of type ‘u8 *’
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:52:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:54:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:55:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:67:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:68:4: warning: implicit declaration of function ‘PaserUartdata’ [-Wimplicit-function-declaration]
+../znptest.c:83:3: error: ‘status’ undeclared (first use in this function)
+../znptest.c:83:3: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:83:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:99:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: At top level:
+../znptest.c:176:4: error: conflicting types for ‘PaserUartdata’
+../znptest.c:68:16: note: previous implicit declaration of ‘PaserUartdata’ was here
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:179:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:243:6: warning: passing argument 1 of ‘ParseCmd’ from incompatible pointer type [enabled by default]
+../znp_struct.h:28:4: note: expected ‘pTM_CMD’ but argument is of type ‘u8 *’
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:3: error: ‘status’ undeclared (first use in this function)
+../znptest.c:85:3: note: each undeclared identifier is reported only once for each function it appears in
+../znptest.c:85:58: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:245:6: warning: passing argument 1 of ‘ParseCmd’ from incompatible pointer type [enabled by default]
+../znp_struct.h:28:4: note: expected ‘pTM_CMD’ but argument is of type ‘u8 *’
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+../znptest.c:245:6: warning: passing argument 1 of ‘ParseCmd’ from incompatible pointer type [enabled by default]
+../znp_struct.h:28:4: note: expected ‘pTM_CMD’ but argument is of type ‘u8 *’
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:54: undefined reference to `itoa'
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:56: undefined reference to `prinf'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:56:3: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:54: undefined reference to `itoa'
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:56: undefined reference to `prinf'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: implicit declaration of function ‘_itoa’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:54: undefined reference to `_itoa'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: implicit declaration of function ‘itoa’ [-Wimplicit-function-declaration]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+./znptest.o: In function `main':
+/home/kon/linux-learning/znpTest/znptest/Debug/../znptest.c:54: undefined reference to `itoa'
+collect2: ld returned 1 exit status
+make: *** [znptest] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:54:3: warning: passing argument 2 of ‘sprintf’ makes pointer from integer without a cast [enabled by default]
+/usr/include/stdio.h:365:12: note: expected ‘const char * __restrict__’ but argument is of type ‘unsigned char’
+../znptest.c:54:3: warning: format not a string literal and no format arguments [-Wformat-security]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+ 
+Building target: znptest
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"zdo_process.d" -MT"zdo_process.d" -o "zdo_process.o" "../zdo_process.c"
+../zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../zdo_process.c:22:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../zdo_process.c:22:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:61:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../zdo_process.c:61:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../zdo_process.c:79:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:83:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../zdo_process.c:83:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../zdo_process.c
+ 
+../zdo_process.c:97:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../zdo_process.c:117:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:120:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:139:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:115:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../zdo_process.c:156:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../zdo_process.c:159:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../zdo_process.c:177:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../zdo_process.c:154:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:159:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:164:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:54:3: warning: passing argument 2 of ‘sprintf’ makes pointer from integer without a cast [enabled by default]
+/usr/include/stdio.h:365:12: note: expected ‘const char * __restrict__’ but argument is of type ‘unsigned char’
+../znptest.c:54:3: warning: format not a string literal and no format arguments [-Wformat-security]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:54:3: warning: pointer targets in passing argument 2 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘const char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:54:3: warning: format not a string literal and no format arguments [-Wformat-security]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+Finished building: ../znptest.c
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+ 
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:54:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘unsigned char *’ [-Wformat]
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:85:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:101:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:181:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:76:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:89:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:185:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:76:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:89:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:185:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:76:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:89:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:185:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:54:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:57:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:69:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:76:5: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:89:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:185:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:55:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:58:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:70:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:71:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../znptest.c:71:4: note: use option -std=c99 or -std=gnu99 to compile your code
+../znptest.c:80:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:96:3: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+../znptest.c:103:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:199:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:55:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:58:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:70:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:71:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../znptest.c:71:4: note: use option -std=c99 or -std=gnu99 to compile your code
+../znptest.c:80:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:96:3: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+../znptest.c:103:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:199:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:55:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:58:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:22:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:70:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:81:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:97:3: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+../znptest.c:104:49: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘PaserUartdata’:
+../znptest.c:200:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./zdo_process.o ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

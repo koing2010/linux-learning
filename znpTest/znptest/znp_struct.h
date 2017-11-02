@@ -25,5 +25,5 @@ typedef struct TM_CMD_
 void print_msg(u8* msg, u8 lenth);
 u8 calcFCS(u8 *pMsg, u8 MsgLen);
 u8 znp_dev_pack(u8 *msg, u8 msg_len, int fd);
-void ParseCmd(pTM_CMD msg_pkt);
+u8 ParseCmd(pTM_CMD msg_pkt);
 #endif /* ZNP_STRUCT_H_ */

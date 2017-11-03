@@ -1,5 +1,4 @@
 eclipse.preferences.version=1
-macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<macros/>\n
 org.eclipse.cdt.core.formatter.alignment_for_arguments_in_method_invocation=16
 org.eclipse.cdt.core.formatter.alignment_for_assignment=16
 org.eclipse.cdt.core.formatter.alignment_for_base_clause_in_type_declaration=80
@@ -161,4 +160,3 @@ org.eclipse.cdt.core.formatter.put_empty_statement_on_new_line=true
 org.eclipse.cdt.core.formatter.tabulation.char=mixed
 org.eclipse.cdt.core.formatter.tabulation.size=4
 org.eclipse.cdt.core.formatter.use_tabs_only_for_leading_indentations=false
-org.eclipse.cdt.core.showSourceRootsAtTopLevelOfProject=true

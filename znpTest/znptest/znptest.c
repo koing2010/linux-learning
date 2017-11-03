@@ -11,7 +11,6 @@
 #include <termios.h>
 #include "pthread.h"
 #include "ktype.h"
-#include "zdo_proess.h"
 #include "znptest.h"
 #include "znp_struct.h"
 #include "time.h"
@@ -20,21 +19,13 @@
 unsigned char znp_dev_path[] = "/dev/ttyACM";
 
 static int openSerial(char *cSerialName);
-void *ListeningUsart(void *serial_fd);
-u8 PaserUartdata(int serial_fd);
 
+/* thread of uart rx and tx */
+void *ListeningUsart_thread(void *serial_fd);
 
-u8 zb_start_req[3] =
-  {
-  0x00, 0x26, 0x00
-  };
+/* parse */
+u8 ParserUartdata(int serial_fd);
 
-SimpleDescriptionFormat_t SimpleDesc =
-  {
-  ZNP_END_POINT, ZCL_HA_PROFILE_ID, ZCL_HA_DEVICEID_ON_OFF_SWITCH, 0, //app version
-	  NO_LATENCY, 0, //in cluster list
-	  NULL, 0, NULL
-  };
 
 int main(void)
   {
@@ -63,17 +54,20 @@ int main(void)
 			  {
 			  0x00, 0x21, 0x01
 			  };
+			u8 i = 0;// for retry cnt
+
 			if (znp_dev_pack(sys_ping, sizeof(sys_ping), s_fd) != SUCCESS)
 			  {
 				continue;
 			  }
+			// send again to insure that the device could receive ping message successfully.
+			znp_dev_pack(sys_ping, sizeof(sys_ping), s_fd);
 			sleep(1);
 
 			/* parse the data in rxbufer */
-			u8 i = 0;
 			for ( i = 0; i < 20; i++)//try for 20 times
 			  {
-				if (0xFE == PaserUartdata(s_fd)) // sys_ping parser function return 0xFE
+				if (0xFE == ParserUartdata(s_fd)) // sys_ping parser function return 0xFE
 				  {
 					Find = 1;
 					break;
@@ -94,12 +88,12 @@ int main(void)
 		  {
 			continue;//check net serial file.
 		  }
-	  } //end for(ser_cnt.....
+	  }
 
-
-	if(Find == 0)//do not find the serial port
+	//do not find the serial port.
+	if(Find == 0)
 	  {
-		printf("***** check device failed *******!\n")
+		printf("***** check device failed *******!\n");
 		return 0;
 	  }
 
@@ -107,17 +101,14 @@ int main(void)
 	if (s_fd > 0)
 	  {
 		/** create thread 1 **/
-		pthread_create(&thread, NULL, ListeningUsart, (void*) s_fd);
-	  }
+		if (pthread_create(&thread, NULL, ListeningUsart_thread, (void*) s_fd) != SUCCESS)
+		  {
+			printf("create thread err failed!\n");
+			return 0;
+		  }
 
-	if (s_fd > 0)
-	  {
-		printf("device open success!\n");
-		znp_dev_pack(zb_start_req, sizeof(zb_start_req), s_fd);
-		sleep(1);
-		ZDO_RegisterForZDOMsgCB(Match_Desc_req, s_fd);
-		sleep(1);
-		AF_RegisterAppEndpointDescription(&SimpleDesc, s_fd);
+		/* start ZNP coordinator device */
+		UerRegister(s_fd);
 	  }
 
 	printf("znptest processor start !\n");
@@ -174,7 +165,7 @@ static int openSerial(char *cSerialName)
 	return iFd;
   }
 /*
- * ListeningUsart
+ * ListeningUsart_thread
  */
 /* 1st byte is the length of the data field, 2nd/3rd bytes are command field. */
 #define MT_RPC_FRAME_HDR_SZ   3
@@ -193,14 +184,14 @@ static int openSerial(char *cSerialName)
 #define FCS_STATE      0x05
 
 /* ZTool protocal parameters */
-u8 state = LEN_STATE;
+u8 state = SOP_STATE;
 u8 CMD_Token[2];
 u8 LEN_Token;
 u8 FSC_Token;
 u8 tempDataLen;
 u8 ch;
 u8* pBuf = NULL;
-u8 PaserUartdata(int serial_fd)
+u8 ParserUartdata(int serial_fd)
   {
 	u8 status = 0;
 	while(1 == read(serial_fd, &ch, 1))
@@ -285,7 +276,10 @@ u8 PaserUartdata(int serial_fd)
 	return status;
   }
 
-void *ListeningUsart(void *serial_fd)
+/*
+ *unpack the uart rxdata
+ */
+void *ListeningUsart_thread(void *serial_fd)
   {
 	int ser_fd = (long) serial_fd;
 	printf("thread start");
@@ -304,7 +298,7 @@ void *ListeningUsart(void *serial_fd)
 		int ret = select(ser_fd + 1, &readfds, NULL, NULL, &tv);
 		if (ret > 0)
 		  {
-			PaserUartdata(ser_fd);
+			ParserUartdata(ser_fd);
 		  }
 		//pthread_mutex_unlock(&uart_mutex);
 

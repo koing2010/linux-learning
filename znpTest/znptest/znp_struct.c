@@ -119,7 +119,8 @@ static u8 SYS_CMDProccessing(pTM_CMD Msg)
 	printf("SYS_CMD_INCOMING\n");
 	switch (Msg->CMD1)
 	  {
-	case 0x01:
+	case SYS_PING:
+	  printf("SYS_PING RSP\n");
 	  return 0xFE;
 
 	  }

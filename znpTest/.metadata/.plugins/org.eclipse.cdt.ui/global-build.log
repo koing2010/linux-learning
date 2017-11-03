@@ -5500,3 +5500,717 @@ make all
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./zdo_process.o ./znp_struct.o ./znptest.o  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c:10:19: fatal error: ktype.h: No such file or directory
+compilation terminated.
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./App/znp_userApp.o  ./zdo_process.o ./znp_struct.o ./znptest.o  ./App/znp_userApp.d  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./App/znp_userApp.o  ./zdo_process.o ./znp_struct.o ./znptest.o  ./App/znp_userApp.d  ./zdo_process.d ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c:8:19: fatal error: ktype.h: No such file or directory
+compilation terminated.
+make: *** [ZDO/zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c:8:19: fatal error: ktype.h: No such file or directory
+compilation terminated.
+make: *** [ZDO/zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c:8:19: fatal error: ktype.h: No such file or directory
+compilation terminated.
+make: *** [ZDO/zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c:8:19: fatal error: ktype.h: No such file or directory
+compilation terminated.
+make: *** [ZDO/zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c:10:24: fatal error: zdo_proess.h: No such file or directory
+compilation terminated.
+make: *** [ZDO/zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o  ./ZDO/zdo_process.d  ./App/znp_userApp.d  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c:10:24: fatal error: zdo_proess.h: No such file or directory
+compilation terminated.
+make: *** [ZDO/zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c:10:24: fatal error: zdo_proess.h: No such file or directory
+compilation terminated.
+make: *** [ZDO/zdo_process.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../ZDO/zdo_process.c:22:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:22:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:61:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:61:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../ZDO/zdo_process.c:79:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:83:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Finished building: ../ZDO/zdo_process.c
+../ZDO/zdo_process.c:83:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:97:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+ 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../ZDO/zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../ZDO/zdo_process.c:117:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:120:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:139:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c:115:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../ZDO/zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../ZDO/zdo_process.c:156:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:159:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:177:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c:154:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../App/znp_userApp.c:24:17: error: ‘ZCL_HA_PROFILE_ID’ undeclared here (not in a function)
+../App/znp_userApp.c:24:36: error: ‘ZCL_HA_DEVICEID_ON_OFF_SWITCH’ undeclared here (not in a function)
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:32:52: error: ‘s_fd’ undeclared (first use in this function)
+../App/znp_userApp.c:32:52: note: each undeclared identifier is reported only once for each function it appears in
+../App/znp_userApp.c:33:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:37:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c:24:17: error: ‘ZCL_HA_PROFILE_ID’ undeclared here (not in a function)
+../App/znp_userApp.c:24:36: error: ‘ZCL_HA_DEVICEID_ON_OFF_SWITCH’ undeclared here (not in a function)
+../App/znp_userApp.c:29:4: error: conflicting types for ‘UerRegister’
+../App/znp_userApp.h:25:4: note: previous declaration of ‘UerRegister’ was here
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:32:52: error: ‘s_fd’ undeclared (first use in this function)
+../App/znp_userApp.c:32:52: note: each undeclared identifier is reported only once for each function it appears in
+../App/znp_userApp.c:33:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:37:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c:24:17: error: ‘ZCL_HA_PROFILE_ID’ undeclared here (not in a function)
+../App/znp_userApp.c:24:36: error: ‘ZCL_HA_DEVICEID_ON_OFF_SWITCH’ undeclared here (not in a function)
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:33:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:37:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c:25:17: error: ‘ZCL_HA_PROFILE_ID’ undeclared here (not in a function)
+../App/znp_userApp.c:25:36: error: ‘ZCL_HA_DEVICEID_ON_OFF_SWITCH’ undeclared here (not in a function)
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:34:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:38:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../ZDO/zdo_process.c:22:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:22:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:61:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+Finished building: ../ZDO/zdo_process.c
+ 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../ZDO/zdo_process.c:61:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../ZDO/zdo_process.c:79:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:83:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:83:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:97:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../ZDO/zdo_process.c:117:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:120:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:139:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c:115:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../ZDO/zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../ZDO/zdo_process.c:156:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:159:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:177:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c:154:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../App/znp_userApp.c:25:17: error: ‘ZCL_HA_PROFILE_ID’ undeclared here (not in a function)
+../App/znp_userApp.c:25:36: error: ‘ZCL_HA_DEVICEID_ON_OFF_SWITCH’ undeclared here (not in a function)
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:34:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:38:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c:29:17: error: ‘ZCL_HA_PROFILE_ID’ undeclared here (not in a function)
+../App/znp_userApp.c:29:36: error: ‘ZCL_HA_DEVICEID_ON_OFF_SWITCH’ undeclared here (not in a function)
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:38:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:42:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c:29:17: error: ‘ZCL_HA_PROFILE_ID’ undeclared here (not in a function)
+../App/znp_userApp.c:29:36: error: ‘ZCL_HA_DEVICEID_ON_OFF_SWITCH’ undeclared here (not in a function)
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:38:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:42:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c:19:10: warning: missing terminating " character [enabled by default]
+../App/znp_userApp.c:19:10: error: #include expects "FILENAME" or <FILENAME>
+../App/znp_userApp.c:28:1: error: unknown type name ‘SimpleDescriptionFormat_t’
+../App/znp_userApp.c:30:2: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:30:2: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c:30:2: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:30:2: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c:30:2: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:30:2: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c:31:2: error: ‘NO_LATENCY’ undeclared here (not in a function)
+../App/znp_userApp.c:31:2: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:31:2: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c:31:2: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:31:2: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c:32:2: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:32:2: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c:32:2: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:32:2: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c:33:3: warning: excess elements in scalar initializer [enabled by default]
+../App/znp_userApp.c:33:3: warning: (near initialization for ‘SimpleDesc’) [enabled by default]
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:39:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:40:2: warning: implicit declaration of function ‘ZDO_RegisterForZDOMsgCB’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:40:26: error: ‘Match_Desc_req’ undeclared (first use in this function)
+../App/znp_userApp.c:40:26: note: each undeclared identifier is reported only once for each function it appears in
+../App/znp_userApp.c:42:2: warning: implicit declaration of function ‘AF_RegisterAppEndpointDescription’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:43:3: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:39:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:43:3: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../App/znp_userApp.c
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+../znp_struct.c: At top level:
+../znp_struct.c:159:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:164:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:49:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:77:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:97:3: error: expected ‘;’ before ‘return’
+../znptest.c:104:60: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘ParserUartdata’:
+../znptest.c:198:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+make: *** [znptest.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:49:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:77:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:104:60: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘ParserUartdata’:
+../znptest.c:198:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:49:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:77:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:104:60: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c: In function ‘ParserUartdata’:
+../znptest.c:198:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:48:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:55:14: error: void value not ignored as it ought to be
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:48:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../App/znp_userApp.c:55:14: error: void value not ignored as it ought to be
+make: *** [App/znp_userApp.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../ZDO/zdo_process.c:23:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:23:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:64:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:64:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../ZDO/zdo_process.c:83:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:87:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Finished building: ../ZDO/zdo_process.c
+ 
+Building file: ../App/znp_userApp.c
+../ZDO/zdo_process.c:87:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../ZDO/zdo_process.c:101:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../ZDO/zdo_process.c:121:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Finished building: ../App/znp_userApp.c
+ 
+../ZDO/zdo_process.c:124:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../ZDO/zdo_process.c:143:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c:119:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../ZDO/zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../ZDO/zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:48:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘main’:
+../znptest.c:46:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+Finished building: ../znptest.c
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+ 
+Building target: znptest
+../znptest.c:49:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+../znptest.c:77:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:104:60: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:111:3: warning: implicit declaration of function ‘UerRegister’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘ParserUartdata’:
+../znptest.c:197:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project znptest ****
+
+make clean 
+rm -rf  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o  ./ZDO/zdo_process.d  ./App/znp_userApp.d  ./znp_struct.d ./znptest.d  znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../ZDO/zdo_process.c:23:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:23:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:64:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:64:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../ZDO/zdo_process.c:83:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:87:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:87:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../ZDO/zdo_process.c
+ 
+Building file: ../App/znp_userApp.c
+../ZDO/zdo_process.c:101:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../ZDO/zdo_process.c:121:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:124:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:143:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building: ../App/znp_userApp.c
+ 
+Building file: ../znp_struct.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znp_struct.d" -MT"znp_struct.d" -o "znp_struct.o" "../znp_struct.c"
+../ZDO/zdo_process.c:119:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../ZDO/zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../ZDO/zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:181:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c:158:5: warning: variable ‘reStatus’ set but not used [-Wunused-but-set-variable]
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:48:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+Finished building: ../znp_struct.c
+ 
+Building file: ../znptest.c
+../znp_struct.c: In function ‘znp_dev_pack’:
+../znp_struct.c:83:3: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znp_struct.c: At top level:
+../znp_struct.c:159:11: warning: ‘DEBUG_CMDProccessing’ defined but not used [-Wunused-function]
+../znp_struct.c:164:11: warning: ‘APP_CMDProccessing’ defined but not used [-Wunused-function]
+../znptest.c: In function ‘main’:
+../znptest.c:46:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:49:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+../znptest.c:77:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:104:60: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:111:3: warning: implicit declaration of function ‘UerRegister’ [-Wimplicit-function-declaration]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c: In function ‘ParserUartdata’:
+../znptest.c:197:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c: In function ‘AF_RegisterAppEndpointDescription’:
+../ZDO/zdo_process.c:23:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:23:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Finished building: ../ZDO/zdo_process.c
+ 
+Building file: ../App/znp_userApp.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"App/znp_userApp.d" -MT"App/znp_userApp.d" -o "App/znp_userApp.o" "../App/znp_userApp.c"
+../ZDO/zdo_process.c:64:3: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:64:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../ZDO/zdo_process.c:83:8: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Finished building: ../App/znp_userApp.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+../ZDO/zdo_process.c:87:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../ZDO/zdo_process.c:87:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:101:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../ZDO/zdo_process.c:121:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+Finished building target: znptest
+ 
+../ZDO/zdo_process.c:124:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:141:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../ZDO/zdo_process.c:160:18: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../ZDO/zdo_process.c:163:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c:179:3: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+../App/znp_userApp.c: In function ‘UerRegister’:
+../App/znp_userApp.c:48:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+../ZDO/zdo_process.c: In function ‘ZDO_RegisterForZDOMsgCB’:
+../ZDO/zdo_process.c:88:3: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Finished building: ../ZDO/zdo_process.c
+ 
+../ZDO/zdo_process.c:88:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+../ZDO/zdo_process.c: In function ‘ZDO_SimpleDescReq’:
+../ZDO/zdo_process.c:125:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../ZDO/zdo_process.c: In function ‘ZDO_ActiveEPReq’:
+../ZDO/zdo_process.c:164:3: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../ZDO/zdo_process.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ZDO/zdo_process.d" -MT"ZDO/zdo_process.d" -o "ZDO/zdo_process.o" "../ZDO/zdo_process.c"
+Finished building: ../ZDO/zdo_process.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+Building file: ../znptest.c
+Invoking: GCC C Compiler
+gcc -I"/home/kon/linux-learning/znpTest/znptest/App" -I"/home/kon/linux-learning/znpTest/znptest" -I"/home/kon/linux-learning/znpTest/znptest/Profile" -I"/home/kon/linux-learning/znpTest/znptest/ZDO" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"znptest.d" -MT"znptest.d" -o "znptest.o" "../znptest.c"
+../znptest.c: In function ‘main’:
+../znptest.c:46:3: warning: pointer targets in passing argument 1 of ‘sprintf’ differ in signedness [-Wpointer-sign]
+/usr/include/stdio.h:365:12: note: expected ‘char * __restrict__’ but argument is of type ‘unsigned char *’
+../znptest.c:49:3: warning: pointer targets in passing argument 1 of ‘openSerial’ differ in signedness [-Wpointer-sign]
+../znptest.c:21:12: note: expected ‘char *’ but argument is of type ‘unsigned char *’
+../znptest.c:65:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+Finished building: ../znptest.c
+ 
+Building target: znptest
+Invoking: GCC C Linker
+gcc -Lcrypto -o "znptest"  ./ZDO/zdo_process.o  ./App/znp_userApp.o  ./znp_struct.o ./znptest.o   -lpthread
+../znptest.c:77:6: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+../znptest.c:104:60: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+../znptest.c:111:3: warning: implicit declaration of function ‘UerRegister’ [-Wimplicit-function-declaration]
+../znptest.c: In function ‘ParserUartdata’:
+../znptest.c:197:2: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+Finished building target: znptest
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project znptest ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
